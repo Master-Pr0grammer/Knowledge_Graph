@@ -92,11 +92,18 @@ if __name__ == '__main__':
     leaf_node = Node("Backward Propragation", 0.6)
     example_tree.root.connected_nodes[1].connected_nodes.append(leaf_node)
 
-    print("----- Print Tree -----")
+    print("\n----- Print Tree -----")
     example_tree.print_tree(example_tree.root, 0)
     #update Scores 
 
-    print("----- Print Updated Tree -----")
+    print("\n----- Print Updated Tree -----")
     example_tree.update_scores(example_tree.root)
     example_tree.print_tree(example_tree.root, 0)
+
+    all_leaf_nodes = []
+    example_tree.traverse_tree(example_tree.root, all_leaf_nodes)
+
+    print("\n----- Print Leaf Nodes -----")
+    for i in all_leaf_nodes:
+        print(i.topic_name)
 
