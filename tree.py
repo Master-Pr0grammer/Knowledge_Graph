@@ -50,7 +50,7 @@ class Knowledge_tree:
         else:
             score_sum = 0
             for i in range(len(node.connected_nodes)):
-                score_sum = self.update_scores(node.connected_nodes[i])
+                score_sum += self.update_scores(node.connected_nodes[i])
             average_score = score_sum / len(node.connected_nodes)
 
             #update current node score
@@ -59,10 +59,11 @@ class Knowledge_tree:
         
     #print tree for debugging
     def print_tree(self, node, layer):
+        print('\t'*layer,f'{node.topic_name}, Score: {round(node.score, 2)}')
 
         #Base case if leaf node
         if len(node.connected_nodes) == 0:
-            print('\t'*layer,f'{node.topic_name}, Score: {node.score}')
+            return
         
         else:
             for i in range(len(node.connected_nodes)):
@@ -83,13 +84,13 @@ if __name__ == '__main__':
     
     #create base level node
     leaf_node = Node("Linear algebra", 0.3)
-    example_tree.root.connected_nodes[0].connected_nodes.append(new_node)
+    example_tree.root.connected_nodes[0].connected_nodes.append(leaf_node)
 
     leaf_node = Node("Forward Propragation", 0.7)
-    example_tree.root.connected_nodes[1].connected_nodes.append(new_node)
+    example_tree.root.connected_nodes[1].connected_nodes.append(leaf_node)
 
     leaf_node = Node("Backward Propragation", 0.6)
-    example_tree.root.connected_nodes[1].connected_nodes.append(new_node)
+    example_tree.root.connected_nodes[1].connected_nodes.append(leaf_node)
 
     print("----- Print Tree -----")
     example_tree.print_tree(example_tree.root, 0)
