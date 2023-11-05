@@ -46,10 +46,10 @@ After this step, for the example input, your output might look like this:
 
 ```
 {
-    'What is known as the powerhouse of the cell?': ['biology', 'parts of the cell'],
-    'What is the part of the cell that contains genetic information?': ['biology', 'organelles'],
-    'What is mRNA?': ['biology', 'genetics'],
-    'What is a good definition of overfitting?': ['machine learning', 'model training']
+    "What is known as the powerhouse of the cell?": ["biology", "parts of the cell"],
+    "What is the part of the cell that contains genetic information?": ["biology", "organelles"],
+    "What is mRNA?": ["biology", "genetics"],
+    "What is a good definition of overfitting?": ["machine learning", "model training"]
 }
 ```
 
@@ -68,10 +68,10 @@ After this final step, you might have produced something that looks like this:
 
 ```
 {
-    'What is known as the powerhouse of the cell?': ['biology', 'cell biology'],
-    'What is the part of the cell that contains genetic information?': ['biology', 'cell biology'],
-    'What is mRNA?': ['biology', 'genetics'],
-    'What is a good definition of overfitting?': ['machine learning', 'model training']
+    "What is known as the powerhouse of the cell?": ["biology", "cell biology"],
+    "What is the part of the cell that contains genetic information?": ["biology", "cell biology"],
+    "What is mRNA?": ["biology", "genetics"],
+    "What is a good definition of overfitting?": ["machine learning", "model training"]
 }
 ```
 
