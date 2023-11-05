@@ -2,6 +2,7 @@
 
 import requests
 import re
+from itertools import islice
 from categorization import generate_category
 
 ANKI_CONNECT_URL = "http://localhost:8765"
@@ -65,13 +66,15 @@ def get_cards_with_topics(deck_name):
     # Check if there was an error retrieving card details
     if 'error' in raw_dict:
         return raw_dict
+
+    cut_dict = dict(islice(raw_dict.items(), 10))
     
-    gpt_dict = dict((k, v["topics"]) for k, v in raw_dict.items())
+    gpt_dict = dict((k, v["topics"]) for k, v in cut_dict.items())
     gpt_output_dict = generate_category(gpt_dict)
     
-    new_dict = raw_dict.copy()
+    new_dict = cut_dict.copy()
 
-    for key in raw_dict.keys():
+    for key in cut_dict.keys():
         new_dict[key]["topics"] = gpt_output_dict[key]
     
     return new_dict
