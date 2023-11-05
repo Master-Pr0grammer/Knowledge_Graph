@@ -32,11 +32,7 @@ export default {
       this.isOpen = !this.isOpen;
     }
   },
-  // This is necessary to inform Vue that the component will be used recursively.
-  components: {
-    ChildNodes: () => import('./ChildNodes.vue'),
-    // ProgressBar
-  }
+
 };
 </script>
 

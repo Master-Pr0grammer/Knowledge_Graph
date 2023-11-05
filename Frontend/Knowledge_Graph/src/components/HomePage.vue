@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     fetchFiles() {
-      axios.get('http://localhost:5000/results')
+      axios.get('http://localhost:5000/backend')
         .then(response => {
           this.files = response.data;
         })
@@ -25,7 +25,7 @@ export default {
         });
     },
     fetchAndSetActive(filename) {
-      axios.get(`http://localhost:5000/api/results/${filename}`)
+      axios.get(`http://localhost:5000/api/backend/${filename}`)
         .then(response => {
           this.activeData = response.data;
         })
@@ -64,8 +64,10 @@ export default {
       <div v-for="file in files" :key="file" >
         <div @click="fetchAndSetActive(file)">
           {{ file }}
-          <ChildNodes :data="activeData" v-if="activeData"/>
-        </div>
+          <div>
+            <ChildNodes :data="activeData" v-if="activeData"/>
+          </div>
+         </div>
       </div>
     </div>
   </div>
@@ -98,6 +100,9 @@ export default {
   margin: 30px 30px 30px 30px;
   outline: 2px solid grey;
   outline-offset: 5px; 
+}
+.content:hover {
+  animation: fade-in 0.2ms ease-in-out forwards;
 }
 
 
