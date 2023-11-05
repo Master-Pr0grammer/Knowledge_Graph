@@ -1,20 +1,31 @@
 {
-    "name": "Machine Learning",
+    "name": "Science",
     "score": 50,
     "nodes": [
       {
-        "name": "Linear Algebra",
+        "name": "Biology",
         "score": 50,
         "nodes": [
           {
-            "name": "Calculus",
+            "name": "Living Environment",
             "score": 50,
             "nodes": []
+          },
+          {
+            "name": "Molecular Biology",
+            "score": 50,
+            "nodes": [           
+              {
+                "name": "Multicellular Biology",
+                "score": 50,
+                "nodes": []
+              } 
+            ]
           }
         ]
       },
       {
-        "name": "Reinforcement Learning",
+        "name": "Physics",
         "score": 50,
         "nodes": []
       }
