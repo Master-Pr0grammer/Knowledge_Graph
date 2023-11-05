@@ -43,6 +43,7 @@ def update_scores():
     tree_data.traverse_tree(tree_data.root, leaf_nodes)
     for leaf in leaf_nodes:
         leaf.score = score_data[leaf.topic_name]['score']
+    tree_data.update_scores(tree_data.root)
 
 def build_tree_from_anki():
     #send data to henry's code
