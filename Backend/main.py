@@ -1,20 +1,22 @@
 import Backend.categorization as cat
 import Backend.tree as tree
 import anki_tools
+import ntpath
 
 topic_structure = {}
 tree_data = tree.Knowledge_tree()
 
 def tsv_to_dict(file_path):
     result_dict = {}
+    file_name = ntpath.basename(file_path)
     with open(file_path, 'r') as file:
         for line in file:
             # Split the line into columns using tab as the separator
             columns = line.strip().split('\t')
             
             if len(columns) == 2:
-                key, value = columns[1], columns[0]
-                result_dict[key] = value
+                key, value = columns[0], columns[1]
+                result_dict[key + " - " + value] = [file_name]
     
     return result_dict
 
