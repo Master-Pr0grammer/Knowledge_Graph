@@ -1,0 +1,1088 @@
+[
+  {
+    "back": "<b>Helium</b>",
+    "card_id": 1337857725969,
+    "ease": null,
+    "front": "<b>Problem: which element is not a common component of biological macromolecules?</b><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;Carbon<br />&nbsp;&nbsp;&nbsp;&nbsp;Nitrogen<br />&nbsp;&nbsp;&nbsp;&nbsp;Oxygen<br />&nbsp;&nbsp;&nbsp;&nbsp;Helium<br />&nbsp;&nbsp;&nbsp;&nbsp;Hydrogen"
+  },
+  {
+    "back": "- The prokaryotic bacteria would not have a nucleus, the other cell types would. <br /><br /><br />- The yeast cell wall would distinguish yeast (plant) cells from human and insect (animal) cells. <br /><br /><br />- Distinguishing human and insect cells with a simple microscope may not be possible, as the two are very similar.",
+    "card_id": 1337857936445,
+    "ease": null,
+    "front": "<b>Problem: </b>One tube contains bacterial cells, one contains yeast cells, one contains human cells and the last contains insect cells. Can you identify the cells from each tube if you are given a light microscope?"
+  },
+  {
+    "back": "<b>nucleoid</b>",
+    "card_id": 1337858388141,
+    "ease": null,
+    "front": "<b>Bacterial Cell Structure - Internal</b><br /><br /><img src=\"pasteBqbpJg.png\" /><br /><br />___: <b>DNA</b> in the bacterial cell is generally confined to this central region. Though it <b>isn't bounded by a membrane</b>, it is visibly distinct from the rest of the cell interior."
+  },
+  {
+    "back": "<b>capsule</b>",
+    "card_id": 1337943393404,
+    "ease": null,
+    "front": "<b>Bacterial Cell Structure - Surface<br /></b><br /><img src=\"Selection_162.png\" /><br /><br />___: <b>Protects the bacterial cell</b> and is often associated with pathogenic bacteria because it serves as a barrier against phagocytosis by white blood cells."
+  },
+  {
+    "back": "<b>mitochondrion / mitochondria</b>",
+    "card_id": 1338237590995,
+    "ease": null,
+    "front": "<img src=\"Selection_163.png\" /><br /><br /><br />___ provide the energy a cell needs to move, divide, produce secretory products, contract - in short, they are the <b>power centers of the cell. </b><br /><br /><br />Are membrane-bound organelles, and like the nucleus have a <b>double membrane</b>. The outer membrane is fairly smooth. But the <b>inner membrane</b> is highly convoluted, forming <b>folds (cristae)</b> as seen in the cross-section, above. <br /><br />It is <b>on these cristae that food (sugar) is combined with oxygen to produce ATP - the primary energy source for the cell.</b>"
+  },
+  {
+    "back": "<b>peroxisomes</b>",
+    "card_id": 1338237820881,
+    "ease": 2,
+    "front": "<b>Animal/Plant Cell Structure<br></b><br><img src=\"pasteeZFElw.png\"><br><br>___ are membrane-bound packets of <b>oxidative enzymes. </b><br><br>In <b>plant cells</b>, they play a variety of roles including <b>converting fatty acids to sugar and assisting chloroplasts in photorespiration. </b><br><br>In animal cells, they <b>protect the cell from its own production of toxic hydrogen peroxide</b>."
+  },
+  {
+    "back": "<b>lysosomes</b>",
+    "card_id": 1338237978440,
+    "ease": null,
+    "front": "<b>Animal/Plant Cell Structure</b><br /><br><img src=\"Selection_165.png\" /><br /><br />___ contain <b>hydrolytic enzymes necessary for intracellular digestion</b>. <br /><br />They are common in animal cells, but <b>rare in plant cells</b>. Hydrolytic enzymes of plant cells are more often found in the vacuole."
+  },
+  {
+    "back": "<b>pilus / pili</b>",
+    "card_id": 1338292478037,
+    "ease": 2,
+    "front": "<b>Bacterial Cell Structure - Appendages</b><br /><br /><img src=\"pasteW4ew_w.png\" /><br /><br />___: Allow bacteria to <b>attach to other cells</b>. A specialized one, the sex ___, allows the <b>transfer of plasmid DNA</b> from one bacterial cell to another. They are also called <b>fimbriae (sing., fimbria).</b>"
+  },
+  {
+    "back": "<b>cytoskeleton<br /></b>",
+    "card_id": 1338670415534,
+    "ease": null,
+    "front": "<b>Animal/Plant Cell Structure</b><br /><br /><img src=\"pastefX3kem.png\" /> <br /><br />As its name implies, the ___ helps to maintain <b>cell shape</b>. The internal <b>movement of cell organelles</b>, as well as <b>cell locomotion and muscle fiber contraction</b> could not take place without it. It is an organized network of three primary <b>protein filaments:</b><br /><br /><b>&nbsp;&nbsp;&nbsp;&nbsp;- microtubules</b><br /><b>&nbsp;&nbsp;&nbsp;&nbsp;- actin filaments (microfilaments)</b><br /><b>&nbsp;&nbsp;&nbsp;&nbsp;- intermediate fibers</b>"
+  },
+  {
+    "back": "<b>centrosome</b>",
+    "card_id": 1338670943692,
+    "ease": 2,
+    "front": "<b>Animal/Plant Cell Structure</b><br /><br /><img src=\"pasteOCeMS9.png\" /> <img src=\"pasteBX7pgo.png\" /><br /><br />The ___, or <b>MICROTUBULE ORGANIZING CENTER (MTOC)</b>, is an area in the cell where <b>microtubules are produced</b>. <br /><br />Plant and animal cell centrosomes play similar roles in cell division, and both include collections of microtubules, but the <b>plant cell one is simpler and does not have centrioles</b>."
+  },
+  {
+    "back": "<b>Golgi </b>",
+    "card_id": 1338671202817,
+    "ease": 3,
+    "front": "<b>Animal/Plant Cell Structure</b><br /><br /><img src=\"pastezfg2B0.png\" /><br /><br />The ___ <b>apparatus</b> is a stack of <b>membrane-bound</b> <b>vesicles that are important in packaging macromolecules (</b>enzymatic or hormonal contents of lysosomes, peroxisomes and secretory vesicles) <b>for transport elsewhere in the cell</b>."
+  },
+  {
+    "back": "<b>rough endoplasmic reticulum</b>",
+    "card_id": 1338713055514,
+    "ease": 2,
+    "front": "<b>Animal/Plant Cell Structure</b><br /><br /><img src=\"Selection_182.png\" /><br /><br />___ ___ ___ appears<b> &quot;pebbled&quot;</b> by electron microscopy due to the presence of numerous <b>ribosomes </b>on its surface. <b>Proteins synthesized on these ribosomes collect here for transport throughout the cell. </b>"
+  },
+  {
+    "back": "<b>smooth endoplasmic reticulum</b>",
+    "card_id": 1338713225695,
+    "ease": null,
+    "front": "<b>Animal/Plant Cell Stucture</b><br /><br /><img src=\"Selection_183.png\" /><br /><br />___ ___ ___ plays <b>different functions depending on the specific cell type</b> including<b> lipid and steroid hormone synthesis, breakdown of lipid-soluble toxins in liver cells, and control of calcium release in muscle cell contraction.</b>"
+  },
+  {
+    "back": "<b>vacuole</b>",
+    "card_id": 1338713480918,
+    "ease": null,
+    "front": "<b>Animal/Plant Cell Structure</b><br /><br /><br /><img src=\"pastexWI2wa.png\" /><br /><br /><br />A ___ is a membrane-bound sac that plays roles in i<b>ntracellular digestion and the release of cellular waste products</b>. <br /><br />They tend to be<b> larger in plant cells</b> and play several roles: storing nutrients and waste products, helping increase cell size during growth, and even acting much like lysosomes of animal cells. The plant cell ___ also <b>regulates turgor pressure in the cell</b>. <b>Water collects inside them, pressing outward against the cell wall and producing rigidity in the plant. Without sufficient water, turgor pressure drops and the plant wilts. </b>"
+  },
+  {
+    "back": "<b>cell wall</b>",
+    "card_id": 1338713824458,
+    "ease": null,
+    "front": "<b>Bacteriall Cell Structure - Surface</b><br /><br /><img src=\"Selection_162.png\" /><br /><br />___ ___: Composed of <b>peptidoglycan (polysaccharides + protein)</b>, <b>maintains the overall shape</b> of a bacterial cell. "
+  },
+  {
+    "back": "<b>plasma membrane</b>",
+    "card_id": 1338713875347,
+    "ease": null,
+    "front": "<b>Bacterial Cell Structure - Surface</b><br /><br /><br /><img src=\"Selection_162.png\" /> <br /><br />___ ___: This is a <b>lipid bilayer</b>"
+  },
+  {
+    "back": "f<b>lagellum / flagella</b>",
+    "card_id": 1338803397644,
+    "ease": null,
+    "front": "<b>Bacterial Cell Structure - Appendages</b><br /><br /><img src=\"pasteW4ew_w.png\" /><br /><br />___: Their purpose is <b>motility</b>."
+  },
+  {
+    "back": "<b>secretory vesicles</b>",
+    "card_id": 1338805467108,
+    "ease": null,
+    "front": "<img src=\"paste_e_5I_.png\" /><br /><br /><b>Cell secretions</b> - e.g. hormones, neurotransmitters -<b> are packaged in ___ ___ at the Golgi apparatus</b>, which are then transported to the cell surface for release."
+  },
+  {
+    "back": "<b>ribosomes</b>",
+    "card_id": 1338805851137,
+    "ease": 3,
+    "front": "<b>Animal/Plant Cell Structure</b><br /><br /><img src=\"pasteHl7vNI.png\" /> <img src=\"pasteZb2hJT.png\" /><br /><br />They are the <b>site of protein synthesis</b>. Each one comprises two parts, <b>a large subunit and a small subunit.</b> Messenger RNA from the cell nucleus is moved systematically along it, where transfer RNA (component of the ___) adds individual amino acid molecules to the lengthening protein chain."
+  },
+  {
+    "back": "<b>chloroplasts</b>",
+    "card_id": 1338806257430,
+    "ease": 4,
+    "front": "<b>Plant Cell Structure<br /></b><br /><img src=\"pasteRzvpBA.png\" /><br /><br />___ are specialized organelles found in all higher plant cells. These organelles contain the plant cell's <b>chlorophyll responsible for the plant's green color and the ability to absorb energy from sunlight</b>. This energy is used to <b>convert water plus atmospheric carbon dioxide into metabolizable sugars by the biochemical process of photosynthesis</b>."
+  },
+  {
+    "back": "<b>centriole</b>",
+    "card_id": 1339066414001,
+    "ease": null,
+    "front": "<img src=\"Selection_201.png\" /><br /><br /><br />Each ___ is <b>a ring of nine groups, each one made of 3</b> <b>fused microtubules</b>."
+  },
+  {
+    "back": "<b>nucleus</b>",
+    "card_id": 1339066891519,
+    "ease": 4,
+    "front": "<b>Animal/Plant Cell Structure</b><br /><b><br /></b><br /><img src=\"pasteU8C2p2.png\" /><br /><br /><br />The ___ is the most obvious organelle in any <b>eukaryotic cell</b>. It is enclosed in a <b>double membrane</b> and communicates with the surrounding cytosol via numerous nuclear pores. <b>The DNA is similar in every cell of the body, but depending on the specific cell type, some genes may be turned on or off - that's why a liver cell is different from a muscle cell, and a muscle cell is different from a fat cell</b>. "
+  },
+  {
+    "back": "<b>nucleolus</b>",
+    "card_id": 1339066991509,
+    "ease": 3,
+    "front": "<b>Animal/Plant Cell Structure</b><br /><br /><img src=\"pasteRjLFTR.png\" /><br /><br />The prominent structure in the nucleus is the ___. Here <b>ribosomes are produced</b>, before moving out of the nucleus and take positions on the rough endoplasmic reticulum where they are critical in protein synthesis."
+  },
+  {
+    "back": "<b>cytosol</b>",
+    "card_id": 1339326753572,
+    "ease": 3,
+    "front": "<b>Cell Structure</b><br /><br />The ___ is the &quot;soup&quot; within which all the other cell organelles reside and where most of the cellular metabolism occurs."
+  },
+  {
+    "back": "<b>macromolecules</b>",
+    "card_id": 1339596451998,
+    "ease": 3,
+    "front": "On the molecular scale, members of three of these classes\u2014carbohydrates, proteins, and nucleic acids \u2014are huge and are therefore called ___"
+  },
+  {
+    "back": "<b>valence</b>",
+    "card_id": 1339689578107,
+    "ease": 4,
+    "front": "The chemical behavior of an atom depends mostly on the number of electrons in its outermost shell. We call those outer electrons ___ electrons<br><br />"
+  },
+  {
+    "back": "<b>covalent</b>",
+    "card_id": 1339689607787,
+    "ease": 4,
+    "front": "A ___ bond is the sharing of a pair of valence electrons by two atoms. <br /><br /><br /><img src=\"pasteBEbAzn.png\" /> <img src=\"paste1SBGbN.png\" /><br />"
+  },
+  {
+    "back": "<b>valence</b>",
+    "card_id": 1339744255997,
+    "ease": null,
+    "front": "This bonding capacity is called the atom\u2019s ___ and usually equals the number of unpaired electrons required to complete the atom\u2019s outermost (___) shell."
+  },
+  {
+    "back": "<b>electronegativity</b>",
+    "card_id": 1339744600662,
+    "ease": null,
+    "front": "The attraction of a particular atom for the electrons of a covalent bond is called its ___. The more ___, the more strongly it pulls shared electrons toward itself."
+  },
+  {
+    "back": "<b>nonpolar</b>",
+    "card_id": 1339744873048,
+    "ease": null,
+    "front": "In a covalent bond between two atoms of the same element, the electrons are shared equally because the two atoms have the same electronegativity\u2014the tug-of-war is at a standoff. Such a bond is called a ___ covalent bond"
+  },
+  {
+    "back": "<b>polar</b>",
+    "card_id": 1339744976458,
+    "ease": null,
+    "front": "When one atom is bonded to a more electronegative atom, the electrons of the bond are not shared equally. This type of bond is called a ___ covalent bond.<br /><br /><br /><img src=\"pasteOZF8Bz.png\" /><br /><br />"
+  },
+  {
+    "back": "<b>ion</b>",
+    "card_id": 1339848890098,
+    "ease": null,
+    "front": "A charged atom (or molecule) is called an ___<br />"
+  },
+  {
+    "back": "<b>cation</b>",
+    "card_id": 1339848952256,
+    "ease": null,
+    "front": "When the charge is positive, the ion is specifically called a ___"
+  },
+  {
+    "back": "<b>anion</b>",
+    "card_id": 1339849008935,
+    "ease": null,
+    "front": "An ___ is a negatively charged ion<br><br />"
+  },
+  {
+    "back": "<b>ionic</b>",
+    "card_id": 1339849076146,
+    "ease": null,
+    "front": "Because of their opposite charges, cations and anions attract each other; this attraction is called an ___ bond"
+  },
+  {
+    "back": "<b>salts</b>",
+    "card_id": 1339849185672,
+    "ease": 3,
+    "front": "Compounds formed by ionic bonds are called <b>ionic compounds</b>, or ___<br /><br /><br /><img src=\"paste_6zIXa.png\" /><br><br /><br><span style=\"color:#ff0000;\">The formula for an ionic compound, such as NaCl, indicates only the ratio of elements in a crystal of the salt. \u201cNaCl\u201d by itself is not a molecule</span>."
+  },
+  {
+    "back": "<b>hydrogen bond</b><br /><br /><br /><img src=\"pasteC4IZPj.png\" />",
+    "card_id": 1340134677915,
+    "ease": null,
+    "front": "The partial positive charge on a hydrogen atom that is covalently bonded to an electronegative atom allows the hydrogen to be attracted to a different electronegative atom nearby. This noncovalent attraction between a hydrogen and an electronegative atom is called a ___ ___. <b>In living cells, the electronegative partners are usually oxygen or nitrogen atoms.</b>"
+  },
+  {
+    "back": "<b>van der Waals interactions (forces)</b>",
+    "card_id": 1340135363763,
+    "ease": 3,
+    "front": "The ever-changing regions of positive and negative charge enable all atoms and molecules to stick to one another. These ___ ___ ___ ___ are individually weak and occur only when atoms and molecules are very close together. <br /><br />"
+  },
+  {
+    "back": "<b>lipids</b>",
+    "card_id": 1340136689765,
+    "ease": null,
+    "front": "The compounds called ___ are grouped together because they share one important trait - being <b>nonionic</b> and <b>nonpolar (= unable to form hydrogen bonds)</b> they mix poorly, if at all, with water and seem to repel it (<b>hydrophobic). </b><br><span style=\" font-weight:600;\"><br /></span><br>They are<b> </b>made up primarily of <b>carbon, hydrogen and oxygen</b> in long <b>hydrocarbon chains</b> or in multiple, complex <b>ring structures</b>.<br><br /><br>In an organism, lipids are a <b>source of stored energy, serve to insulate the body and are found inside ALL different cell types</b> (component of the membranes).<br><br /><b><br /></b><br /><img src=\"pastebkTDLh.png\" /><br /><img src=\"pasteyXvBk1.png\" /><b><br /></b>"
+  },
+  {
+    "back": "<b>catalysts</b>",
+    "card_id": 1340136776094,
+    "ease": 4,
+    "front": "Enzymatic proteins regulate metabolism by acting as ___, chemical agents that selectively speed up chemical reactions without being consumed by the reaction.<br><br />"
+  },
+  {
+    "back": "<b>chirality</b>",
+    "card_id": 1340137516468,
+    "ease": 4,
+    "front": "The term ___ in general is used to describe an object that is not superposable on its mirror image. Human hands are perhaps the most universally recognized example of chirality.<br><br /><br><img src=\"pasted2K1Sa.png\" />"
+  },
+  {
+    "back": "a) \u2022 Bond #1 (C-C): Non-polar covalent because<b> carbon always forms covalent bonds in biological systems</b> and <b>both carbon atoms have the same electronegativity</b> making the bond non-polar<br /> <br />\u2022 Bond #2 (C-OH): Polar covalent because <b>carbon and oxygen have different electronegativities</b>. Oxygen is much more electronegative than carbon and pulls the electrons more towards itself making the bond polar.<br /><br /><br />b) Yes, because a polar molecule (see above) is solube in another polar one as water (through hydrogen bonding)<br /><br /><br />c) Hydrogen bonds can occur between the two polymers. The <b>exposed OH groups allow for easy hydrogen bonding</b> between molecules. There are <b>no charged groups so ionic bonds cannot occur and</b> <b>covalent bonds cannot occur without an enzyme or catalys</b>",
+    "card_id": 1340284687357,
+    "ease": null,
+    "front": "<b>Consider the following carbohydrate and answer the questions</b><br /><b><br /></b><br /><img src=\"pasten9dZU_.png\" /><br /><b><br /></b><br /><b>a) Name each bond or interaction that is circled in the schematic above. Explain why you selected these options. Choose from polar covalent, nonpolar covalent, ionic, hydrophobic, van der Waals.</b><br /><b><br /></b><br /><b>b) Would you expect this polymer to be soluble in an aqueous environment? Explain your answer.</b><br /><b><br /></b><br /><b>c) What type of bonds or interactions can occur between two such polymers? Choose from: covalent, hydrogen, hydrophobic, ionic, van der Waals. Explain your answer.</b>"
+  },
+  {
+    "back": "Sugar is polar - just like water - fat ain't.",
+    "card_id": 1340285475879,
+    "ease": null,
+    "front": "<b>Why is sugar soluble in water and fat ain't?</b>"
+  },
+  {
+    "back": "<b>fatty acid</b>",
+    "card_id": 1340485750943,
+    "ease": 4,
+    "front": "Each ___ ___ consists of a hydrocarbon chain with a carboxyl group at one end.<br /><br /><br /><img src=\"pastednfj3l.png\" />"
+  },
+  {
+    "back": "<b>glycerol</b>",
+    "card_id": 1340486126055,
+    "ease": 3,
+    "front": "The ___ molecule has three hydroxyl groups, each able to interact with the carboxyl group of a fatty acid.<br /><br /><br /><img src=\"pasteC9l6uL.png\" />"
+  },
+  {
+    "back": "<b>eukaryotic</b>",
+    "card_id": 1340486325953,
+    "ease": null,
+    "front": "<b>Protists, fungi, animals, and plants</b> all consist of ___ cells."
+  },
+  {
+    "back": "<b>fat (triacylglycerol or triglyceride)</b>",
+    "card_id": 1340529217742,
+    "ease": null,
+    "front": "___ (or ___ or ___) molecules are made up of four parts:<br /><b><br /><br />- a molecule of glycerol<br />- three molecules of fatty acids </b>(alike, as in tristearin, or different)<br /><b><br /></b><br /><b>They may contain as few as 4 carbon atoms or as many as 24</b>. Because fatty acids are synthesized from fragments containing two carbon atoms, the number of carbon atoms in the chain is almost always an even number.<br /><br /><br /><img src=\"pastelMfaDS.png\" /> <img src=\"pastef45YOo.png\" />"
+  },
+  {
+    "back": "<b>chromatin</b>",
+    "card_id": 1340610181584,
+    "ease": null,
+    "front": "When a cell is dividing, the nuclear ___ <b>(DNA and surrounding protein)</b> condenses into <b>chromosomes</b> that are easily seen by microscopy."
+  },
+  {
+    "back": "<b>unsaturated / saturated</b><br /><b><br /></b><br /><img src=\"paste2c_AU9.png\" /> <img src=\"pasteazN1lr.png\" />",
+    "card_id": 1340612224365,
+    "ease": null,
+    "front": "Plant fats tend to be ____ meaning their fatty acids <b>have one or more</b> <b>double bonds</b> between their carbon atoms and <b>could hold more hydrogen atoms than they do</b>.<br /><br />On the contrary, animal fats tend to be ___<br /><br /><br /><br />"
+  },
+  {
+    "back": "<b>cis / trans<br /></b><br /><img src=\"pasteVWOvdR.png\" />",
+    "card_id": 1340890721058,
+    "ease": null,
+    "front": "In <b>hydrogenation</b>, plant oils are <b>exposed to hydrogen at a high temperature and in the presence of a catalyst</b>. Two things result:<br /><br />&nbsp;&nbsp;&nbsp;<b> some double bonds are converted into single bonds.<br />&nbsp;&nbsp;&nbsp;&nbsp;other double bonds are converted from ___ to ___ configuration.<br /></b><br />Both these effects straighten out the molecules so they can lie closer together and <b>become solid</b> rather than liquid."
+  },
+  {
+    "back": "<b>phospholipids</b><br /><b><br /></b><br />[sound:phospolipid.flv]",
+    "card_id": 1340891046367,
+    "ease": null,
+    "front": "___ are fat derivatives in which one fatty acid has been replaced by a <b>phosphate group</b> and <b>one of several nitrogen-containing molecules</b>.<br /><br /><br /><img src=\"Selection_082.png\" />"
+  },
+  {
+    "back": "<b>monosaccharides</b>",
+    "card_id": 1340973583184,
+    "ease": null,
+    "front": "___ are common sugars share the same molecular formula:<b> </b><br /><br /><img src=\"pasteIQ8dVe.png\" />"
+  },
+  {
+    "back": "<b>sucrose</b><br /><b><br /></b><br /><b>lactose</b><br /><b><br /></b><br /><b>maltose</b>",
+    "card_id": 1340974097838,
+    "ease": null,
+    "front": "<b>Disaccharides</b><br /><br /><br />&nbsp;&nbsp;&nbsp;___ common table sugar = glucose + fructose<br />&nbsp;&nbsp;&nbsp;___ major sugar in milk = glucose + galactose<br />&nbsp;&nbsp;&nbsp;___ product of starch digestion = glucose + glucose"
+  },
+  {
+    "back": "<b>starches</b>",
+    "card_id": 1341092137656,
+    "ease": null,
+    "front": "___ are <b>polymers (polysaccharides) of glucose </b>produced by <b>plants</b> for <b>glucose storage</b>. <br /><br /><br /><img src=\"pastedrkZhI.png\" />&nbsp;&nbsp;"
+  },
+  {
+    "back": "<b>glycogen</b><br /><br /><img src=\"paste1fY3Ip.png\" />",
+    "card_id": 1341142314321,
+    "ease": null,
+    "front": "<b>Storage Polysaccharides - Animals</b><br /><br /><br /><img src=\"paste3RHzvx.png\" /><br /><br /><br />Animals store excess glucose by polymerizing it to form ___. The structure is <b>similar to that of amylopectin.</b><br /><br />The <b>liver and the skeletal muscles</b> are major depots."
+  },
+  {
+    "back": "<b>cellulose</b><br /><b><br /></b><br /><img src=\"paste9jsIk4.png\" />",
+    "card_id": 1341236653193,
+    "ease": null,
+    "front": "<b>Structural Polysaccharides - Plants</b><br /><br />___<br /><br /><img src=\"paste1c26_P.png\" /><br /><br />It is the<b> major structural material of </b>which<b> plants</b> are made. Main molecule in <b>wood, cotton, paper.</b><br /><br />Like starch, it is a <b>polysaccharide with glucose as its monomer </b>but there are <b>no side chains</b> as there are in starch. "
+  },
+  {
+    "back": "<b>Chargaff</b><br><b><br></b><br>[sound:DNAi_chargaff_ratio-sm.mov]",
+    "card_id": 1341347196812,
+    "ease": null,
+    "front": "<b> ___'s ratio</b><br><br><img src=\"pasteSZ0QzK.png\"><br><br>In the DNA of any given species, the ratio of <b>adenine / thymine </b>is equal, as is the ratio of <b>adenine / thymine.</b>"
+  },
+  {
+    "back": "<b>Phospholipid<br /></b><br />They are found as the major <b>component in the cell membrane</b> and form a a permeability barrier, <b>keeping polar molecules on the outside</b>.<br /><br /><br /><img src=\"pasteGu3y0q.png\" /> (The vescicle is a liposome)<br /><br />The polar end with the phosphorous and oxygen is hydrophilic and associates with the aqueous environment. The non-polar end composed of hydrocarbons is very hydrophobic and to excludes water.",
+    "card_id": 1341407937779,
+    "ease": null,
+    "front": "<br /><img src=\"Selection_268.png\" /><br />"
+  },
+  {
+    "back": "<b>a, b, c</b>",
+    "card_id": 1341580249538,
+    "ease": null,
+    "front": "<b>Which of the following statements is true for phospholipid molecules?</b><br /><br />a.&nbsp;&nbsp;&nbsp;&nbsp;The polar end of phospholipids would contain carbon and phosphorous and oxygen.<br /><br />b.&nbsp;&nbsp;&nbsp;&nbsp;The non-polar end of phospholipids would contain almost exclusively carbon and hydrogen.<br /><br />c.&nbsp;&nbsp;&nbsp;&nbsp;The polar end of phospholipids would form hydrogen bonds with water.<br /><br />d.&nbsp;&nbsp;&nbsp;&nbsp;The non-polar end of phospholipids associate with the cytoplasm of the cell."
+  },
+  {
+    "back": "<b>a, b, c, d</b>",
+    "card_id": 1341696681201,
+    "ease": null,
+    "front": "<b>Which of the following statements is true for carbohydrate molecules?</b><br /><br /><br />a)&nbsp;&nbsp;&nbsp;&nbsp;The general structure can abbreviated as <img src=\"pasteLiZvF0.png\" /><br />b)&nbsp;&nbsp;&nbsp;&nbsp;A disaccharide can be formed by a condensation reaction between two glucose molecules.<br />c)&nbsp;&nbsp;&nbsp;&nbsp;Carbohydrates can be used as an energy source for cells.<br />d)&nbsp;&nbsp;&nbsp;&nbsp;Carbohydrates can be used as a structural molecule."
+  },
+  {
+    "back": "<b>Covalent Bond</b>",
+    "card_id": 1341696815903,
+    "ease": null,
+    "front": "<b>Which of the following type of bond or interaction joins monomers together to form biological polymers (as the macromolecules)?</b><br /><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;Covalent Bond<br />&nbsp;&nbsp;&nbsp;&nbsp;Ionic bond<br />&nbsp;&nbsp;&nbsp;&nbsp;Hydrophobic interactions<br />&nbsp;&nbsp;&nbsp;&nbsp;van der Waals forces<br /><br />"
+  },
+  {
+    "back": "<b>Bacteria</b><br><span style=\" font-weight:600;\"><br /></span><br><b>Archaeon</b>",
+    "card_id": 1341743161588,
+    "ease": null,
+    "front": "<b>Which of the following organisms are prokaryotes?</b><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;Yeast<br />&nbsp;&nbsp;&nbsp;&nbsp;Mice<br />&nbsp;&nbsp;&nbsp;&nbsp;Amoebas<br />&nbsp;&nbsp;&nbsp;&nbsp;Humans<br />&nbsp;&nbsp;&nbsp;&nbsp;Bacteria<br>&nbsp;&nbsp;&nbsp;&nbsp;Archaeon"
+  },
+  {
+    "back": "<b>condensation / dehydration</b>",
+    "card_id": 1341743769764,
+    "ease": null,
+    "front": "A ___ reaction is a chemical reaction in which two molecules combine to form one single molecule, together with the loss of a small molecule. When this small molecule is water, it is known as a ___ reaction.<br /><br /><br /><img src=\"pasteAa29aV.png\" />"
+  },
+  {
+    "back": "<b>steroids</b>",
+    "card_id": 1341829398624,
+    "ease": null,
+    "front": "___ are lipids characterized by a <b>carbon skeleton</b> consisting of <b>four fused rings. </b><br /><br /><img src=\"Selection_086.png\" />"
+  },
+  {
+    "back": "<b>cholesterol</b>",
+    "card_id": 1341829431472,
+    "ease": null,
+    "front": "___ (a steroid) is a common <b>component of animal cell membranes</b> and is also the <b>precursor</b> from which other steroids are synthesized.<br /><br /><br /><img src=\"Selection_086.png\" />"
+  },
+  {
+    "back": "<b>cytoplasm</b><br /><b><br /></b><br /><img src=\"paste1IAAnC.png\" />",
+    "card_id": 1341830110822,
+    "ease": null,
+    "front": "___ is a collective term for cytosol plus the organelles."
+  },
+  {
+    "back": "<b>monounsaturated / polyunsaturated</b>",
+    "card_id": 1341830582216,
+    "ease": null,
+    "front": "___ fats have a <b>single double bond</b> in their fatty acids while ___ fats, such as trilinolein shown here, have <b>two or more</b>.<br /><b><br /></b><br /><img src=\"pastexoe6RS.png\" />"
+  },
+  {
+    "back": "<b>structural isomers</b>",
+    "card_id": 1341830844135,
+    "ease": null,
+    "front": "Substances such as monosaccharides, which <b>have identical molecular formulas but different structural formulas, are known as ___ ___</b><br><span style=\" font-weight:600;\"><br /></span><br><img src=\"pasteamBWM1.png\" />"
+  },
+  {
+    "back": "<b>glycosidic bond</b>",
+    "card_id": 1341832960355,
+    "ease": null,
+    "front": "The resulting <b>linkage between sugars is called a ___ ___</b>"
+  },
+  {
+    "back": "<b>glycogenloysis</b>",
+    "card_id": 1341833533950,
+    "ease": null,
+    "front": "Glycogen is broken back down into glucose when energy is needed (a process called ___)"
+  },
+  {
+    "back": "<b>disaccharide</b>",
+    "card_id": 1341833656001,
+    "ease": null,
+    "front": "Two monosaccharides can be linked together to form a &quot;double&quot; sugar or ___<br><br /><br>The molecular formula of each of these is:<br /><br /><img src=\"pasteVjsp3L.png\" />"
+  },
+  {
+    "back": "<b>amylases</b>",
+    "card_id": 1341833691865,
+    "ease": null,
+    "front": "Before starches can enter (or leave) cells, they <b>must be digested.</b> The <b>hydrolysis</b> of starch is done by ___ ezymes<br /><br /><br /><img src=\"paste4WZv1l.png\" />"
+  },
+  {
+    "back": "<b>amylose / amylopectin</b><br /><br /><b><br /></b><br /><img src=\"paste5mmGEW.png\" />",
+    "card_id": 1341833758854,
+    "ease": null,
+    "front": "Two types of starches are found: ___ consists of linear, <b>unbranched chains</b> of several hundred <b>glucose residues (units) </b>while<b> </b>___ differs in being <b>highly branched</b>."
+  },
+  {
+    "back": "<b>nucleotide</b>",
+    "card_id": 1341929642605,
+    "ease": null,
+    "front": "A ___, in general, is composed of three parts: <b>a nitrogen-containing (nitrogenous) base, a five-carbon sugar (a pentose) and one or more phosphate groups</b>.<br /><br /><br /><img src=\"pasteVe8SB1.png\" />"
+  },
+  {
+    "back": "<b>pyrimidine</b><br /><b><br /></b><br /><img src=\"Selection_095.png\" />",
+    "card_id": 1341930083870,
+    "ease": null,
+    "front": "A&nbsp;&nbsp;___ (nitrogenous base) has one six-membered ring of carbon and nitrogen atoms.<br /><b><br /></b>"
+  },
+  {
+    "back": "<b>purines</b><br /><b><br /></b><br /><img src=\"pasteudUp9a.png\" />",
+    "card_id": 1341930454866,
+    "ease": null,
+    "front": "___ (nitrogenous base) are larger than pyrimidines, with a six-membered ring fused to a five-membered ring."
+  },
+  {
+    "back": "<b>deoxyribose / ribose</b><br /><b><br /></b><br /><img src=\"paste_TcNP9.png\" /><b><br /></b>",
+    "card_id": 1342000553517,
+    "ease": null,
+    "front": "In DNA the sugar is ___ while in RNA it is ___"
+  },
+  {
+    "back": "<b>Nucleic acids (polynucleotides)</b><br /><b><br /></b><br /><img src=\"paste4xxk5j.png\" />",
+    "card_id": 1342000678688,
+    "ease": null,
+    "front": "___ ___ (or ___) are polymers made of monomers (nucleotides), which atomic components are <b>carbon, hydrogen, oxygen, and nitrogen</b>. Thet <b>store and transfer genetic information</b> and are found inside ALL different cell types. <br><br /><br><img src=\"pasteuG8muA.png\" />"
+  },
+  {
+    "back": "<b>double helix</b><br /><b><br /></b><br /><b>antiparallel</b>",
+    "card_id": 1342001563300,
+    "ease": null,
+    "front": "DNA molecules have two polynucleotides, or \u201cstrands,\u201d that spiral around an imaginary axis, forming a ___ ___. The two sugar-phosphate backbones run in opposite 5'&nbsp;&nbsp;and 3' directions from each other; this arrangement is referred to as ___, somewhat like a divided highway. <br /><br /><br /><img src=\"pastedAmuth.png\" />"
+  },
+  {
+    "back": "Hydrogen bonds between the hydroxyl groups attached to the carbon atom 3 on one molecule and carbon atom 6 on the adjacent molecule.<br><br />",
+    "card_id": 1342003158134,
+    "ease": null,
+    "front": "<img src=\"paste4oOJz8.png\" />"
+  },
+  {
+    "back": "This is DNA because the 2\u2019 carbon is lacking a hydroxyl (DNA = deoxyribonucleic acid) and one of the bases is thymine not uracil.<br /><br /><br />[sound:DNAi_building_blocks-sm.mov]",
+    "card_id": 1342003236641,
+    "ease": null,
+    "front": "Is the following a polymer of DNA or RNA? Explain how you can determine this.<br /><br /><br /><img src=\"pasteGhSphY.png\" /><br /><br />"
+  },
+  {
+    "back": "<b>b, d</b>",
+    "card_id": 1342003922280,
+    "ease": null,
+    "front": "<b>How do the monomers found in DNA differ from the monomers found in RNA? Choose all that apply.<br /></b><br /><br />a) DNA incorporates four different nitrogenous bases, RNA incorporates three different nitrogenous bases.<br />b) Thymidine is found in DNA but not RNA.<br />c) There is a 3\u2019 hydroxyl on the RNA monomer, but not on the DNA monomer.<br />d) There is a 2\u2019 hydroxyl on the RNA monomer, but not on the DNA monomer."
+  },
+  {
+    "back": "<b>amino acid</b>",
+    "card_id": 1342172958965,
+    "ease": null,
+    "front": "At the center of the ___ ___ is an asymmetric carbon atom called the <b>alpha carbon</b>. Its four different partners are an <b>amino group</b>, a <b>carboxyl group</b>, a <b>hydrogen atom</b>, and a <b>variable group symbolized by R</b>.<br /><br /><br /><img src=\"pasteag7exG.png\" />"
+  },
+  {
+    "back": "<b>peptide bond</b><br /><b><br /></b><br /><img src=\"pasteNQdvfd.png\" />",
+    "card_id": 1342253403080,
+    "ease": null,
+    "front": "When two amino acids are positioned so that<b> the carboxyl group of one is adjacent to the amino group of the other,</b> they can become <b>joined by a dehydration reaction</b>, with the removal of a water molecule. The resulting covalent bond is called a ___ ___<br /><br /><br />These bonds are formed one at a time, s<b>tarting with the amino acid at the amino end (N-terminus)</b>"
+  },
+  {
+    "back": "<b>polypeptides / protein</b>",
+    "card_id": 1342259869658,
+    "ease": null,
+    "front": "Polymers of amino acids are called ___while a ___ is a <b>biologically functional</b> molecule that consists of one or more polypeptides, each folded and coiled into a specific three-dimensional structure. Both are mainly composed of <b>carbon, hydrogen, oxygen, and nitrogen</b>, but often also contain other elements and are found inside ALL different cell types.<br /><br /><br /><img src=\"pastent3EPX.png\" />"
+  },
+  {
+    "back": "<b>ribbon</b><br><br><b>space-filling</b>",
+    "card_id": 1342260221213,
+    "ease": null,
+    "front": "<img src=\"pasteEVxp5l.png\" /><br /><br /><br />The ___ model shows how the single polypeptide chain folds and coils to form the functional protein. <br /><br /><br />A ___-___ model shows more clearly the globular shape seen in many proteins."
+  },
+  {
+    "back": "<b>primary structure</b><br /><b><br /></b><br /><img src=\"pasteKwRxR8.png\" />",
+    "card_id": 1342346245169,
+    "ease": null,
+    "front": "The ___ ___ of a protein is a linked series of amino acids with a unique sequence."
+  },
+  {
+    "back": "<b>secondary structure</b>",
+    "card_id": 1342346380963,
+    "ease": null,
+    "front": "Most proteins have <b>segments of their polypeptide chains repeatedly coiled or folded in patterns</b> that contribute to the protein\u2019s overall shape. These coils and folds, collectively <b>referred to as</b> ___ ___, are the result of <b>hydrogen bonds between the repeating constituents of the polypeptide backbone</b> (not the amino acid side chains). <br /><br /><br /><img src=\"pastep4Lhkt.png\" />"
+  },
+  {
+    "back": "<b>alpha helix</b><br /><b><br /></b><br /><img src=\"pastebmVYzy.png\" />",
+    "card_id": 1342346416677,
+    "ease": null,
+    "front": "One <b>secondary structure</b> is the ___ ___, a delicate coil held together by <b>hydrogen bonding between every fourth amino acid</b>.<br />"
+  },
+  {
+    "back": "<b>beta pleated sheet</b><br /><b><br /></b><br /><img src=\"pasteQ2ywP2.png\" />",
+    "card_id": 1342346418079,
+    "ease": null,
+    "front": "The other main type of <b>secondary structure</b> is the ___ ___ ___.&nbsp;&nbsp;In this structure two or more <b>strands of the polypeptide chain lying side by side (called \u03b2 strands)</b> are <b>connected by hydrogen bonds between parts of the two parallel polypeptide backbones</b>. "
+  },
+  {
+    "back": "<b>amphiphilic</b>",
+    "card_id": 1342423995847,
+    "ease": null,
+    "front": "In a <b>phospholipid, </b>the <b>charges on the phosphate and amino groups</b> (in red) make that <b>portion of the molecule ploar and hydrophilic</b>. The result is an ___ molecule.<br /><br />This kind of lipids are <b>major constituents of cell membranes</b>. These molecules form a <b>phospholipid bilaye</b>r with their hydrophilic (polar) heads facing their aqueous surroundings (e.g., the cytosol) and their hydrophobic (non-polar) tails facing each other.<br /><br /><img src=\"pasteuTGqpt.png\" />&nbsp;&nbsp;<img src=\"pasteKILgqX.png\" />&nbsp;&nbsp;<img src=\"pastegznKvg.png\" />"
+  },
+  {
+    "back": "<b>tertiary structure</b>",
+    "card_id": 1342431365744,
+    "ease": null,
+    "front": "While secondary structure involves interactions between backbone constituents, ___ ___ is the overall shape of a polypeptide resulting also from<b> interactions between the side chains (R groups)</b> of the various amino acids. <br /><br /><br /><img src=\"Selection_169.png\" />"
+  },
+  {
+    "back": "<b>hydrophobic interaction</b><br /><b><br /></b><br /><b>disulfide bridges</b><br /><br /><br /><img src=\"pastep41fg3.png\" />",
+    "card_id": 1342431753302,
+    "ease": null,
+    "front": "<b>Bonds in tertiary structure</b><br /><br />Nonpolar side chains: ___ ___ (end up in clusters at the core of the protein) and <b>van der Waals interactions</b><br /><br />Polar side chains: <b>hydrogen bonds</b><br /><br />Positively and negatively charged side chains: <b>ionic bonds</b><br /><br />Covalent bonds called ___ ___ (-S-S-) may further reinforce the shape of a protein. They form where two <b>cysteine monomers, which have sulfhydryl groups (-SH)</b> on their side chains <b>are brought close together</b> by the folding of the protein."
+  },
+  {
+    "back": "<b>quaternary structure</b>",
+    "card_id": 1342437528553,
+    "ease": null,
+    "front": "Some proteins consist of two or more polypeptide chains aggregated into one functional macromolecule. The ___ ___ is the overall protein structure that results from the aggregation of these polypeptide subunits.<br /><br /><br /><img src=\"Selection_170.png\" />"
+  },
+  {
+    "back": "<b>4</b><br><span style=\" font-weight:600;\"><br /></span><br><img src=\"pasteag7exG.png\" />",
+    "card_id": 1342437765080,
+    "ease": null,
+    "front": "<b>How many different functional groups are attached to the alpha carbon of an amino acid?</b><br /><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;1<br />&nbsp;&nbsp;&nbsp;&nbsp;2<br />&nbsp;&nbsp;&nbsp;&nbsp;3<br />&nbsp;&nbsp;&nbsp;&nbsp;4<br />&nbsp;&nbsp;&nbsp;&nbsp;5<br /><br />"
+  },
+  {
+    "back": "<b>secondary structure</b>",
+    "card_id": 1342438271549,
+    "ease": null,
+    "front": "<b>Which of the following can be described as \u201ca localized region of three dimensional structure that is stabilized by hydrogen bonds formed between the amine of one amino acid and the carboxyl of another amino acid\u201d (meaning the backbone and not the side chains)?</b><br><br /><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;primary structure<br />&nbsp;&nbsp;&nbsp;&nbsp;quaternary structure<br />&nbsp;&nbsp;&nbsp;&nbsp;secondary structure<br />&nbsp;&nbsp;&nbsp;&nbsp;tertiary structure<br /><br />"
+  },
+  {
+    "back": "<b>Nonpolar side chains; hydrophobic</b>",
+    "card_id": 1342514748771,
+    "ease": null,
+    "front": "<b>What group of amino acids?</b><br /><b><br /></b><br /><img src=\"pasteiFw3Br.png\" /><br /><br /><br />Methionine, Phenylalanine, Tryptophan, Proline, Glycine, Alanine, Valine, Leucine, Isoleucine"
+  },
+  {
+    "back": "<b>Polar side chains; hydrophilic</b>",
+    "card_id": 1342514793581,
+    "ease": null,
+    "front": "<b>What group of amino acids?</b><br /><br /><br /><img src=\"paste3Sx7jP.png\" /><br><br /><br>Serine, Threonine, Cysteine, Tyrosine, Asparagine, Glutamine"
+  },
+  {
+    "back": "<b>Electrically charged side chains; hydrophilic; acidic (negatively charged)</b>",
+    "card_id": 1342514847996,
+    "ease": null,
+    "front": "<b>What group of amino acids?</b><br /><b><br /></b><br /><img src=\"Selection_179.png\" /><br><br /><br>Aspartic acid, Glutamic acid"
+  },
+  {
+    "back": "<b>Electrically charged side chains; hydrophilic; basic (positively charged)</b>",
+    "card_id": 1342514917200,
+    "ease": null,
+    "front": "<b>What group of amino acids?</b><br /><b><br /></b><br /><br /><img src=\"Selection_180.png\" /><b><br /></b><br /><b><br />Lysine, Arginine, Histidine</b>"
+  },
+  {
+    "back": "<b>threonine</b><br /><b>asparigine</b>",
+    "card_id": 1342515227015,
+    "ease": null,
+    "front": "<b>The side chain of serine (polar) can form a hydrogen bond with the side chain of which of the following amino acids? Choose all that apply.</b><br /><b><br /></b><br />&nbsp;&nbsp;&nbsp;&nbsp;isoleucine (non-polar)<br />&nbsp;&nbsp;&nbsp;&nbsp;alanine (non-polar)<br />&nbsp;&nbsp;&nbsp;&nbsp;threonine (polar)<br />&nbsp;&nbsp;&nbsp;&nbsp;asparigine (polar)<br />&nbsp;&nbsp;&nbsp;&nbsp;proline (non-polar)"
+  },
+  {
+    "back": "<b>Enzyme E binds and cuts at specific sites</b>. These sites are not present on the exterior of the substrate when the substrate is properly folded. When the disulfide bonds within the substrate protein are disrupted, the 3 dimensional shape is altered, and the protein unfolds. This allows enzyme E access to sites that were previously protected within the substrate protein.",
+    "card_id": 1342597688145,
+    "ease": null,
+    "front": "You test enzyme E activity on a large protein substrate. This substrate is not cleaved by enzyme E. You then treat the substrate with <b>DTT (a compound that disrupts disulfide bonds)</b> and test the enzyme E activity again. This time the substrate is cleaved by enzyme E. Why was enzyme E able to cleave the protein substrate only after the substrate was treated with DTT?"
+  },
+  {
+    "back": "<img src=\"pasteB3H9XZ.png\" />",
+    "card_id": 1342731520186,
+    "ease": null,
+    "front": "<b>List the strongest type of interaction that occurs between the side chain groups of these amino acids. Choose from covalent bonds, hydrogen bonds, ionic bonds, or van der Waals interactions.</b><br /><br /><br />i) tyrosine, asparagine (polar)<br /><br /><br />ii) cysteine, cysteine (polar)<br /><br /><br />iii) isoleucine, valine (non polar)<br /><br /><br />iv) glutamic acid, lysine (charged)<br /><br /><br />v) glycine, glutamine (non polar + polar)"
+  },
+  {
+    "back": "<img src=\"Selection_202 (1).png\" /><br /><br /><br /><b>Van der Waals Force</b><br /><br /><b>Ionic Bond</b><br /><br /><b>Substrate 3 forms strong ionic interactions at two positions as opposed to one position.</b>",
+    "card_id": 1342732170346,
+    "ease": null,
+    "front": "<img src=\"Selection_201 (2).png\" />&nbsp;&nbsp;<br /><br /><br />Val non polar, Glu charged, Asp charged, Ala non polar<br /><br /><br /><img src=\"pasteBdrUOx.png\" /><br /><b><br /></b><br />c) Which substrate would you expect to bind the most tightly to the Resist protein? Explain why you made this choice.<br /><br />"
+  },
+  {
+    "back": "<img src=\"pasteCyESbT.png\" />",
+    "card_id": 1342781385820,
+    "ease": null,
+    "front": "<b>Level of structure and forces</b><br><span style=\" font-weight:600;\"><br /></span><br><img src=\"Selection_212.png\" />"
+  },
+  {
+    "back": "<b>carbohydrates</b>",
+    "card_id": 1342864881566,
+    "ease": null,
+    "front": "___ include both sugars and polymers of sugars. They are composed of <b>carbon, hydrogen and oxygen in a 1:2:1 ratio</b> and serve both as <b>fuel and building materials</b>. They are found inside ALL different cell types.<br /><br /><br /><img src=\"pastepBwUHv.png\" /><br />"
+  },
+  {
+    "back": "<b>metabolism</b>",
+    "card_id": 1342942789825,
+    "ease": null,
+    "front": "The totality of an organism\u2019s chemical reactions is called ___ "
+  },
+  {
+    "back": "<b>catabolic</b>",
+    "card_id": 1342951956896,
+    "ease": null,
+    "front": "Some metabolic pathways release energy by breaking down complex molecules to simpler compounds. These degradative processes are called ___ pathways, or <b>breakdown pathways.</b>"
+  },
+  {
+    "back": "<b>anabolic</b>",
+    "card_id": 1342951989104,
+    "ease": null,
+    "front": "___ pathways consume energy to build complicated molecules from simpler ones; they are sometimes called <b>biosynthetic pathways. </b>"
+  },
+  {
+    "back": "<b>energy</b>",
+    "card_id": 1342952857505,
+    "ease": null,
+    "front": "___ is the capacity to cause change. "
+  },
+  {
+    "back": "<b>chemical energy</b>",
+    "card_id": 1342952931825,
+    "ease": null,
+    "front": "___ ___ is a term used by biologists to refer to the potential energy available for release in a chemical reaction."
+  },
+  {
+    "back": "<b>kinetic / potential</b><br /><b><br /></b><br /><img src=\"pasteVnDKdA.png\" />",
+    "card_id": 1342953087574,
+    "ease": null,
+    "front": "Energy can be associated with the relative motion of objects; this energy is called ___ energy, while ___ energy is energy that matter possesses because of its location or structure."
+  },
+  {
+    "back": "<b>thermodynamics</b>",
+    "card_id": 1343038371635,
+    "ease": null,
+    "front": "The study of the energy transformations that occur in a collection of matter is called ___"
+  },
+  {
+    "back": "<b>biosphere</b>",
+    "card_id": 1343039105744,
+    "ease": null,
+    "front": "The ___ consists of all life on Earth and all the places where life exist."
+  },
+  {
+    "back": "<b>ecosystem</b>",
+    "card_id": 1343039146567,
+    "ease": null,
+    "front": "An ___ consists of all the living things in a particular area, along with all the nonliving components of the environment with which life interacts."
+  },
+  {
+    "back": "<b>biological community</b>",
+    "card_id": 1343039214289,
+    "ease": null,
+    "front": "The entire array of organisms inhabiting a particular ecosystem is called a ___ ___<br><br />"
+  },
+  {
+    "back": "<b>population</b>",
+    "card_id": 1343042333916,
+    "ease": null,
+    "front": "A ___ consists of all the individuals of a species living within the bounds of a specified area. "
+  },
+  {
+    "back": "<b>tissue</b>",
+    "card_id": 1343043806150,
+    "ease": null,
+    "front": "Each ___ is made up of a group of cells that work together, performing a specialized function.<br><br />"
+  },
+  {
+    "back": "<b>organelles</b>",
+    "card_id": 1343043854466,
+    "ease": null,
+    "front": "The various functional components present in cells are the ___<br><br />"
+  },
+  {
+    "back": "<b>system / surroundings</b>",
+    "card_id": 1343044249764,
+    "ease": null,
+    "front": "In <b>thermodynamics</b>, the word ___ denote the matter under study; they refer to the rest of the universe\u2014everything outside the system\u2014as the ___"
+  },
+  {
+    "back": "<b>isolated / open</b>",
+    "card_id": 1343044278584,
+    "ease": null,
+    "front": "An ___<b> system </b>is unable to exchange either energy or matter with its surroundings. In an ___<b> system</b>, energy and matter can be transferred between the system and its surroundings."
+  },
+  {
+    "back": "<b>first law of thermodynamics</b>",
+    "card_id": 1343162808381,
+    "ease": null,
+    "front": "According to the ..., the energy of the universe is constant: can be transferred and transformed, but it cannot be created or destroyed. It is also known as the <b>principle of conservation of energy.</b>"
+  },
+  {
+    "back": "<b>second law of thermodynamics</b>",
+    "card_id": 1343162898600,
+    "ease": null,
+    "front": "According to the ...<b> </b>every energy transfer or transformation increases the <b>entropy (randomness, number of ways to arrange something)</b> of the universe."
+  },
+  {
+    "back": "<b>free energy (G from Gibbs)</b>",
+    "card_id": 1343163124224,
+    "ease": null,
+    "front": "___ ___ is the portion of a system\u2019s energy that can perform work when temperature and pressure are uniform throughout the system, as in a living cell. "
+  },
+  {
+    "back": "<b>negative</b><br /><b><br /></b><br /><b>positive / zero</b>",
+    "card_id": 1343163603933,
+    "ease": null,
+    "front": "Only processes that decrease the system\u2019s free energy and so have a ___ \u0394G are spontaneous (energetically favorable and occur without an input of energy), while processes that have a ___ or ___ \u0394G are never spontaneous."
+  },
+  {
+    "back": "<b>negative</b><br /><b><br /></b><br /><img src=\"Selection_257.png\" />",
+    "card_id": 1343213872457,
+    "ease": null,
+    "front": "An exergonic (energy outward) reaction proceeds with a net release of free energy. Because the chemical mixture loses free energy (G decreases), \u0394G is ___ for an exergonic reaction.<br /><br />"
+  },
+  {
+    "back": "<b>positive</b><br><span style=\" font-weight:600;\"><br /></span><br><img src=\"pasteuMQEkm.png\" />",
+    "card_id": 1343214310657,
+    "ease": null,
+    "front": "An endergonic reaction is one that absorbs free energy from its surroundings. Because this kind of reaction essentially stores free energy in molecules (G increases), \u0394G is ___"
+  },
+  {
+    "back": "<b>ATP (adenosine triphosphate)</b><br /><b><br /></b><br /><img src=\"pasteYXf2G4.png\" /><br /><b><br /></b><br /><b><br /></b>",
+    "card_id": 1343300749501,
+    "ease": null,
+    "front": "___ contains the <b>sugar ribose</b>, with the <b>nitrogenous base adenine </b>and a chain of <b>three phosphate groups</b> bonded to it. In addition to its role in <b>energy coupling</b>, is also one of the nucleoside triphosphates used to <b>make RNA</b>."
+  },
+  {
+    "back": "<b>energy coupling</b>",
+    "card_id": 1343300900671,
+    "ease": null,
+    "front": "A key feature in the way cells manage their energy resources to do this work is ___ ___, the use of an exergonic process to drive an endergonic one, mainly through ATP."
+  },
+  {
+    "back": "<b>hydrolysis</b><br><span style=\" font-weight:600;\"><br /></span><br><img src=\"paste16Scvh.png\" /><br><span style=\" font-weight:600;\"><br /></span>",
+    "card_id": 1343301186148,
+    "ease": null,
+    "front": "The ___ of ATP:<br><br /><br><img src=\"Selection_266.png\" />"
+  },
+  {
+    "back": "<img src=\"Selection_017 (1).png\" /><br /><br />ATP (3 phosphate groups + Adenine) is <b>a building block of RNA </b>(a molecule involved in the transfer of information from DNA to protein). It is also used as <b>energy currency (source) in the cell.</b>",
+    "card_id": 1343375967912,
+    "ease": null,
+    "front": "<img src=\"Selection_269.png\" /><br /><br /><br />(Another class other than phospolipids)"
+  },
+  {
+    "back": "<b>hydroxyl</b>",
+    "card_id": 1343380163635,
+    "ease": null,
+    "front": "<img src=\"Selection_271.png\" /><br><br /><br>In a ___ group (-OH), a&nbsp;&nbsp;hydrogen atom is bonded to an oxygen atom, which in turn is&nbsp;&nbsp;bonded to the carbon skeleton of the organic molecule."
+  },
+  {
+    "back": "<b>carboxyl</b>",
+    "card_id": 1343380283949,
+    "ease": null,
+    "front": "<img src=\"Selection_273.png\" /><br><br /><br>When an oxygen atom is double-bonded to a carbon atom that is also bonded to an -OH group, the entire assembly of atoms is called a ___ group (-COOH)."
+  },
+  {
+    "back": "<b>amino</b>",
+    "card_id": 1343380337121,
+    "ease": null,
+    "front": "<img src=\"pasteKfIYeg.png\" /><br /><br /><br />The ___ group (-NH_2) consists of a nitrogen atom bonded to two hydrogen atoms and to the carbon skeleton."
+  },
+  {
+    "back": "<b>sulfhydryl</b>",
+    "card_id": 1343380396769,
+    "ease": null,
+    "front": "<img src=\"pasteuw5dAe.png\" /><br><br /><br>The ___ group (-SH) consists of a sulfur atom bonded to an atom of hydrogen; it resembles a hydroxyl group in shape."
+  },
+  {
+    "back": "<b>phosphate</b>",
+    "card_id": 1343380463215,
+    "ease": null,
+    "front": "<img src=\"Selection_280.png\" /><br /><br /><br />In the ___ group shown here, a phosphorus atom is bonded to four oxygen atoms; one oxygen is bonded to the carbon skeleton; two oxygens carry negative charges."
+  },
+  {
+    "back": "<b> All of 'em</b>",
+    "card_id": 1343507023094,
+    "ease": null,
+    "front": "<b>If the \u0394G of a reaction is negative, which of the following is a true statement?</b><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;The reaction is exergonic.<br />&nbsp;&nbsp;&nbsp;&nbsp;The reaction is spontaneous.<br />&nbsp;&nbsp;&nbsp;&nbsp;Energy is released in this reaction."
+  },
+  {
+    "back": "<b>a, c, d, e</b>",
+    "card_id": 1343507348943,
+    "ease": null,
+    "front": "<b>Which of the following statements is true with respect to ATP?</b><br /><br /><br />a) ATP is commonly used in coupled reactions<br />b) The hydrolysis of ATP is an endergonic reaction<br />c) The hydrolysis of ATP produces inorganic phosphate and ADP.<br />d) ATP is used as an energy source and a building block in RNA.<br />e) ATP can donate a phosphate group that becomes covalently linked to a protein.<br /><br />"
+  },
+  {
+    "back": "<b>free energy of activation (or activation energy)</b><br /><b><br /></b><br /><img src=\"paste5slpwJ.png\" /> ",
+    "card_id": 1343507466974,
+    "ease": null,
+    "front": "The initial investment of energy for starting a reaction\u2014the energy required to contort the reactant molecules so the bonds can break\u2014is known as the ___ ___ and it is lowered by enzymes<br /><br />"
+  },
+  {
+    "back": "<b>phosphorylated intermediate</b><br /><b><br /></b><br /><img src=\"pastevOSDq6.png\" /><b><br /><br /></b>",
+    "card_id": 1343508378709,
+    "ease": 2,
+    "front": "In the cell, if the \u0394G of an endergonic reaction is less than the amount of energy released by ATP hydrolysis, then the two reactions can be coupled so that, overall, the coupled reactions are exergonic (spontaneous). This usually involves the transfer of a phosphate group from ATP to some other molecule, such as the reactant. The recipient with the phosphate group covalently bonded to it is then called a ___ ___"
+  },
+  {
+    "back": "<b>glucose</b><br><span style=\" font-weight:600;\"><br /></span><br><b>galactose</b><br><span style=\" font-weight:600;\"><br /></span><br><b>fructose</b><br><br /><br><img src=\"pasteamBWM1.png\" />",
+    "card_id": 1345099281640,
+    "ease": null,
+    "front": "<b>Monosaccharides:</b><br><br /><br>&nbsp;&nbsp;&nbsp;&nbsp;___, &quot;blood sugar&quot;, the immediate source of energy for cellular respiration<br />&nbsp;&nbsp;&nbsp;&nbsp;___, a sugar in milk (and yogurt), and<br />&nbsp;&nbsp;&nbsp;&nbsp;___, a sugar found in honey."
+  },
+  {
+    "back": "<img src=\"DarccosxBack.png\" />",
+    "card_id": 1517672422054,
+    "ease": 2,
+    "front": "<img src=\"Darccosx.png\" />"
+  },
+  {
+    "back": "<img src=\"DarccotxBack.png\" />",
+    "card_id": 1517672431720,
+    "ease": 2,
+    "front": "<img src=\"Darccotx.png\" />"
+  },
+  {
+    "back": "<img src=\"DarccscxBack.png\" />",
+    "card_id": 1517672445558,
+    "ease": 2,
+    "front": "<img src=\"Darccscx.png\" />"
+  },
+  {
+    "back": "<img src=\"DarcsecxBack.png\" />",
+    "card_id": 1517672455767,
+    "ease": 2,
+    "front": "<img src=\"Darcsecx.png\" />"
+  },
+  {
+    "back": "<img src=\"DarcsinxBack.png\" />",
+    "card_id": 1517672475080,
+    "ease": 3,
+    "front": "<img src=\"Darcsinx.png\" />"
+  },
+  {
+    "back": "<img src=\"DarctanxBack.png\" />",
+    "card_id": 1517672483747,
+    "ease": 4,
+    "front": "<img src=\"Darctanx.png\" />"
+  },
+  {
+    "back": "<img src=\"DcosxBack.png\" />",
+    "card_id": 1517672491886,
+    "ease": 4,
+    "front": "<img src=\"Dcosx.png\" />"
+  },
+  {
+    "back": "<img src=\"DcotxBack.png\" />",
+    "card_id": 1517672501887,
+    "ease": 4,
+    "front": "<img src=\"Dcotx.png\" />"
+  },
+  {
+    "back": "<img src=\"DcscxBack.png\" />",
+    "card_id": 1517672513988,
+    "ease": 3,
+    "front": "<img src=\"Dcscx.png\" />"
+  },
+  {
+    "back": "<img src=\"DsecxBack.png\" />",
+    "card_id": 1517672552275,
+    "ease": 2,
+    "front": "<img src=\"Dsecx.png\" />"
+  },
+  {
+    "back": "<img src=\"DsinxBack.png\" />",
+    "card_id": 1517672560850,
+    "ease": 4,
+    "front": "<img src=\"Dsinx.png\" />"
+  },
+  {
+    "back": "<img src=\"DtanxBack.png\" />",
+    "card_id": 1517672570348,
+    "ease": 4,
+    "front": "<img src=\"Dtanx.png\" />"
+  },
+  {
+    "back": "<img src=\"INT1overxBack.png\" />",
+    "card_id": 1517672589580,
+    "ease": 4,
+    "front": "<img src=\"INT1overx.png\" />"
+  },
+  {
+    "back": "<img src=\"INTcosaxBack.png\" />",
+    "card_id": 1517672600007,
+    "ease": 4,
+    "front": "<img src=\"INTcosax.png\" />"
+  },
+  {
+    "back": "<img src=\"INTcosuBack.png\" />",
+    "card_id": 1517672609078,
+    "ease": 4,
+    "front": "<img src=\"INTcosu.png\" />"
+  },
+  {
+    "back": "<img src=\"INTcotuBack.png\" />",
+    "card_id": 1517672623961,
+    "ease": 4,
+    "front": "<img src=\"INTcotu.png\" />"
+  },
+  {
+    "back": "<img src=\"INTcscsquBack.png\" />",
+    "card_id": 1517672633647,
+    "ease": 3,
+    "front": "<img src=\"INTcscsqu.png\" />"
+  },
+  {
+    "back": "<img src=\"INTcscuBack.png\" />",
+    "card_id": 1517672645861,
+    "ease": null,
+    "front": "<img src=\"INTcscu.png\" />"
+  },
+  {
+    "back": "<img src=\"INTcscucotuBack.png\" />",
+    "card_id": 1517672656140,
+    "ease": null,
+    "front": "<img src=\"INTcscucotu.png\" />"
+  },
+  {
+    "back": "<img src=\"INTduuBack.png\" />",
+    "card_id": 1517672665631,
+    "ease": null,
+    "front": "<img src=\"INTduu.png\" />"
+  },
+  {
+    "back": "<img src=\"INTsecsquBack.png\" />",
+    "card_id": 1517672676147,
+    "ease": null,
+    "front": "<img src=\"INTsecsqu.png\" />"
+  },
+  {
+    "back": "<img src=\"INTsecuBack.png\" />",
+    "card_id": 1517672684613,
+    "ease": null,
+    "front": "<img src=\"INTsecu.png\" />"
+  },
+  {
+    "back": "<img src=\"INTsecutanuBack.png\" />",
+    "card_id": 1517672695409,
+    "ease": null,
+    "front": "<img src=\"INTsecutanu.png\" />"
+  },
+  {
+    "back": "<img src=\"INTsinaxBack.png\" />",
+    "card_id": 1517672706878,
+    "ease": null,
+    "front": "<img src=\"INTsinax.png\" />"
+  },
+  {
+    "back": "<img src=\"INTsinuBack.png\" />",
+    "card_id": 1517672715649,
+    "ease": null,
+    "front": "<img src=\"INTsinu.png\" />"
+  },
+  {
+    "back": "<img src=\"INTtanaxBack.png\" />",
+    "card_id": 1517672727468,
+    "ease": null,
+    "front": "<img src=\"INTtanax.png\" />"
+  },
+  {
+    "back": "<img src=\"INTtanuBack.png\" />",
+    "card_id": 1517672742753,
+    "ease": null,
+    "front": "<img src=\"INTtanu.png\" />"
+  },
+  {
+    "back": "<img src=\"INTudvBack.png\" />",
+    "card_id": 1517672752252,
+    "ease": null,
+    "front": "<img src=\"INTudv.png\" />"
+  },
+  {
+    "back": "<img src=\"TIcos2xBack.png\" />",
+    "card_id": 1517672782437,
+    "ease": null,
+    "front": "<img src=\"TIcos2x.png\" />"
+  },
+  {
+    "back": "<img src=\"TIcossqxBack.png\" />",
+    "card_id": 1517672792527,
+    "ease": null,
+    "front": "<img src=\"TIcossqx.png\" />"
+  },
+  {
+    "back": "<img src=\"TIcotsqxBack.png\" />",
+    "card_id": 1517672804769,
+    "ease": null,
+    "front": "<img src=\"TIcotsqx.png\" />"
+  },
+  {
+    "back": "<img src=\"TIcscsqxBack.png\" />",
+    "card_id": 1517672814925,
+    "ease": null,
+    "front": "<img src=\"TIcscsqx.png\" />"
+  },
+  {
+    "back": "<img src=\"TIsecsqxBack.png\" />",
+    "card_id": 1517672827988,
+    "ease": null,
+    "front": "<img src=\"TIsecsqx.png\" />"
+  },
+  {
+    "back": "<img src=\"TIsin2xBack.png\" />",
+    "card_id": 1517672840076,
+    "ease": null,
+    "front": "<img src=\"TIsin2x.png\" />"
+  },
+  {
+    "back": "<img src=\"TIsinsqxBack.png\" />",
+    "card_id": 1517672882148,
+    "ease": null,
+    "front": "<img src=\"TIsinsqx.png\" />"
+  },
+  {
+    "back": "<img src=\"TItan2xBack.png\" />",
+    "card_id": 1517672896260,
+    "ease": null,
+    "front": "<img src=\"TItan2x.png\" />"
+  },
+  {
+    "back": "<img src=\"TItansqxBack.png\" />",
+    "card_id": 1517672909891,
+    "ease": null,
+    "front": "<img src=\"TItansqx.png\" />"
+  },
+  {
+    "back": "<img src=\"TSsqrtasq-xsqBack.png\" />",
+    "card_id": 1517672942328,
+    "ease": null,
+    "front": "<img src=\"TSsqrtasq-xsq.png\" />"
+  },
+  {
+    "back": "<img src=\"TSsqrtasq+xsqBack.png\" />",
+    "card_id": 1517672967624,
+    "ease": null,
+    "front": "<img src=\"TSsqrtasq+xsq.png\" />"
+  },
+  {
+    "back": "<img src=\"TSsqrtxsq-asqBack.png\" />",
+    "card_id": 1517672978949,
+    "ease": null,
+    "front": "<img src=\"TSsqrtxsq-asq.png\" />"
+  }
+]
