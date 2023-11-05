@@ -97,14 +97,33 @@ def remove_duplicate_categories(result_dict):
 def generate_category(questions_dict):
     openai.api_key = "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" # HARD CODED API KEY, TODO: CHANGE THIS LATER
 
-    completion = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo",
-                    messages=[
-                        {"role": "system", "content": GENERATE_SYSTEM_PROMPT},
-                        {"role": "user", "content": str(questions_dict)}
-                    ]
-                )
-    output = json.loads(completion["choices"][0]["message"]["content"])
+    dicts = []
+    if len(questions_dict) > 4000:
+        for i in range(0, 4000, 400):
+            dicts.append(dict((k, v) for k, v in questions_dict.items()[i:i + 400]))
+    else:
+        dicts = [questions_dict]
+
+    completions = []
+    for q_dict in dicts:
+        completion = openai.ChatCompletion.create(
+                        model="gpt-3.5-turbo",
+                        messages=[
+                            {"role": "system", "content": GENERATE_SYSTEM_PROMPT},
+                            {"role": "user", "content": str(q_dict)}
+                        ]
+                    )
+
+        completion = json.loads(completion["choices"][0]["message"]["content"])
+
+        for key in completion.keys():
+            completion[key] = completion[key][:len(questions_dict[key]) + 1]
+
+        completions.append(completion)
+
+    output = {}
+    for comp in completions:
+        output = output | comp
 
     return output
 

@@ -27,4 +27,4 @@ coverage
 *.sln
 *.sw?
 
-__pycache__/*
+__pycache__/**
