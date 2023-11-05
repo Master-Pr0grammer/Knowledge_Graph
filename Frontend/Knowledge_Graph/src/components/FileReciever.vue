@@ -8,6 +8,7 @@
         </ul>
         <input type="file" ref="fileInput" @change="handleFileUpload" accept=".txt" multiple style="display: none;" />
       </div>
+
       <button @click="submitFiles" :disabled="files.length === 0">Upload Files</button>
       <div v-if="uploadProgress !== null">
         <progress max="100" :value="uploadProgress"> {{ uploadProgress }}% </progress>
@@ -69,12 +70,21 @@
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
+    height: 200px;
+
     transition: border-color 0.3s;
   }
   
   .upload-area:hover {
+    background-color: lightblue;
     border-color: #0056b3;
+    animation: fade-in 1s ease-in-out;
   }
   
+  @keyframes fade-in {
+  from { background-color: white; }
+  to { background-color: lightblue;}
+}
+
   </style>
   

@@ -54,8 +54,10 @@ export default {
         Check out some of your previous progress or upload your score on a new topic 
       </p>
     </div>
-  
-    <FileReciever/> 
+    
+    <div class="get-file">
+      <FileReciever/> 
+    </div>
 
     <div class="content">
       
@@ -73,24 +75,29 @@ export default {
 <style scoped>
 
 .home {
-  text-align: left;
+  padding-top: 30px;
   height: 100%;
   width: 100%;
+  animation: fade-in 1s ease-in forwards;
+
 }
+
 
 .greetings {
   font-size: 30px;
-  animation: fade-in 1s ease-in forwards
 }
 
+.get-file {
+  text-align: center;
+
+}
+
+
 .content {
-  
   font-size: 19px;
   margin: 30px 30px 30px 30px;
-
   outline: 2px solid grey;
   outline-offset: 5px; 
-  animation: fade-in 1s ease-in forwards;
 }
 
 
