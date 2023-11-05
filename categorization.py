@@ -6,62 +6,75 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 GENERATE_SYSTEM_PROMPT = \
 """You are an educational assistant capable of classifying test questions
-into several different categories within a given discipline.
+into several different categories within a given an area of study.
 
 You will receive questions as JSON where each key is a test question
 and each value is a list sorted by category specificity. The list will always be
-initialized to contain the discipline the question belongs to, potentially
+initialized to contain the area of study the question belongs to, potentially
 proceeded by categories, in increasing specificity, within that discipline
 the question belongs to. An example of a dictionary
 you might receive is as follows:
 
+```
 {
     'What is known as the powerhouse of the cell?': ['biology'],
     'What is the part of the cell that contains genetic information?': ['biology'],
     'What is a good definition of overfitting?': ['machine learning']
 }
+```
 
 Note that the spacing may not be uniform like it is written here.
 Then, you will output a dictionary where each value (each list) has exactly one extra category
-appended to it. The new category must be highly correlated with the question and the most
-general it can be without being more general than the last element in the list.
-In this example input, you might output the following:
+appended to it. The new category must be highly correlated with the question.
+In general, to produce the output, you will use the following steps:
 
+Step 1: For each question, identify the corresponding value, which will always be a list, and
+observe the first and last element of that list. The first element will always be
+the area of study the question belongs to. The last element will be the most specific categorization
+of the question the user has provided. So, the last element may either also be the area of study
+the question belongs to, or a category within the area of study the question belongs to.
+
+Step 2: Using the question text, the area of study the question belongs to (first element of the value), and the
+most specific categorization of the question the user provided (last element of the value), generate
+a new category that meets the following criteria:
+    - The new category is more specific that the most specific categorization of the question the
+    user provided.
+    - The new category is as general as possible.
+
+After this step, for the example input, your output might look like this:
+
+```
 {
-    'What is known as the powerhouse of the cell?': ['biology', 'organelles'],
+    'What is known as the powerhouse of the cell?': ['biology', 'parts of the cell'],
     'What is the part of the cell that contains genetic information?': ['biology', 'organelles'],
+    'What is mRNA?': ['biology', 'genetics'],
     'What is a good definition of overfitting?': ['machine learning', 'model training']
 }
+```
 
-The categories added must match the question. Notice that the answer to the first question in the example:
-'What is known as the powerhouse of the cell?' is the mitochondria which is an organelle, hence
-why the appended category was 'organelle', though it could have been something else like 'parts of the cell'
-because the 'mitochondria' is a part of the cell. However, the addition of something like
-'human anatomy' would have been less valid because the mitochondria is less associated
-with overall human anatomy and more specifically with general cell biology.
+Step 3: For each area of study in the input, observe the categories you appended. Any categories
+that are too similar must be combined into one. For example, in the example output from step 2,
+'parts of the cell', 'organelles', and 'genetics' are the new categories you added for the 'biology'
+area of study. Since 'parts of the cell' and 'organelles' are quite similar, you should combine
+them into one. That is, you ensure that only 'parts of the cell' or 'organelles' is used
+for the questions whose lists had either 'parts of the cell' or 'organelles' appended.
+Alternatively, similarity in categories suggests there exists a category that is more general
+that my describe both. For example, one could use 'cell biology' to encapsulate
+'organelles' and 'parts of the cell'. Note in this example that
+'genetics' is sufficiently distinct from the other two, so it does not have to change.
 
-The categories added must not be too similar. So, in the previous example, if the values (lists) corresponding
-to the two questions in the biology discipline had been ['biology', 'organelles']
-and ['biology', 'parts of cell'], then this would be an invalid output because
-'organelles' and 'parts of cell' are too similar in the context of biology. This should also be the
-case of any other discipline. For any two values with the same discipline (i.e. the same
-first element), the new categories added to them must be identical or very different.
+After this final step, you might have produced something that looks like this:
 
-Once again, each value (each list) must have exactly one new item added to it.
-For example, in the previous example, if the output value for the question in the machine learning
-discipline had been ['machine learning', 'model training', 'regularization'], that would not be
-valid because two more categories had been added to the list. In this example, valid outputs would be
-['machine learning', 'model training'] or ['machine learning', 'regularization'] because
-only one category was added to the input value (list).
+```
+{
+    'What is known as the powerhouse of the cell?': ['biology', 'cell biology'],
+    'What is the part of the cell that contains genetic information?': ['biology', 'cell biology'],
+    'What is mRNA?': ['biology', 'genetics'],
+    'What is a good definition of overfitting?': ['machine learning', 'model training']
+}
+```
 
-Finally, it is crucial that the category you add to any list is always more
-specific than the last category in that list. For example, the addition of the category
-'economics' to the list ['macroeconomics', 'monopsony'] would not be valid because
-'economics' is more general than both of the items in the list. On the other hand,
-adding 'game theory' to the list ['economics', 'macroeconomics'] would be valid,
-because the last element of that list ('macroeconomics') encapsulates 'game theory'.
-
-Note you would also output in JSON form."""
+Note you also output in JSON form."""
 
 def generate_category(questions_dict):
     completion = openai.ChatCompletion.create(
@@ -81,10 +94,11 @@ example_questions = {
     "What is the precision of two-point Gaussian quadrature?": ["numerical computing"],
     "Why does Q-learning work, even though it is a biased method?": ["machine learning"],
     "What is Temporal Difference Learning in mathematical terms?": ["machine learning"],
-    "What is an adversarial attack in machine learning?": ["machine learning"],
     "Prove that the integral of 1/n does not converge.": ["calculus", "integration"],
     "Write the equation to find the price that will be set by a monopoly.": ["economics"],
-    "In monopolistic markets, why is marginal revenue not equal to price?": ["economics"]
+    "Why is marginal revenue not equal to price for a monopoly?": ["economics"],
+    "Write the general equation to find market supply.": ["economics"],
+    "What is Nash equilibrium?": ["economics"]
 }
 
 print(generate_category(generate_category(example_questions)))
