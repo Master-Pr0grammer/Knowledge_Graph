@@ -14,5 +14,14 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  // things to communicate with backend 
+  devServer: {
+    proxy: {
+      '/results': {
+        target: 'http://localhost:5000', // Flask server address
+        changeOrigin: true,
+      }
+    }
   }
 })
