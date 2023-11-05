@@ -1,7 +1,9 @@
-import categorization as cat
-import tree
+import Backend.categorization as cat
+import Backend.tree as tree
+import anki_tools
 
 topic_structure = {}
+tree_data = tree.Knowledge_tree()
 
 def tsv_to_dict(file_path):
     result_dict = {}
@@ -20,7 +22,6 @@ def tsv_to_dict(file_path):
 def make_tree_more_specific(json_filename):
     topic_structure = cat.generate_category(topic_structure)
     
-    tree_data = tree.Knowledge_tree()
     tree_data.create_tree_from_structure(topic_structure)
     tree_data.save_json(json_filename)
 
@@ -32,6 +33,20 @@ def upload(file_path, json_filename):
     tree_data = tree.Knowledge_tree()
     tree_data.create_tree_from_structure(topic_structure)
     tree_data.save_json(json_filename)
-    
-if __name__ == "__main__":
-    upload("text.txt", "json.json")
+
+# ----------\/ using AKNI tools \/----------
+def update_scores():
+    score_data = anki_tools.get_cards_review_details("DECK NAME HERE")
+
+    #set leaf node scores in tree
+    leaf_nodes = []
+    tree_data.traverse_tree(tree_data.root, leaf_nodes)
+    for leaf in leaf_nodes:
+        leaf.score = score_data[leaf.topic_name]['score']
+    tree_data.update_scores(tree_data.root)
+
+def build_tree_from_anki():
+    #send data to henry's code
+    #send henry's code output to Ethan's code
+    #done
+    pass
