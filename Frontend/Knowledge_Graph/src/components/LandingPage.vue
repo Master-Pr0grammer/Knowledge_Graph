@@ -2,11 +2,11 @@
   <div class="landing">
     <h1 v-html="animatedHeading"></h1>
     <p v-html="animatedText"></p>
-    <transition name="fade-in">
-      <router-link to="/home" v-if="showButton">
-        <button>Click to start</button>
-      </router-link>
-    </transition>
+    
+    <router-link to="/home" v-if="showButton">
+      <button>Click to start</button>
+    </router-link>
+
     
   </div>
 </template>
@@ -64,10 +64,9 @@ export default {
 .landing {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   justify-content: center;
   height: 100vh;
-
   font-size: 30px;
 }
 
@@ -80,20 +79,16 @@ p {
 
 /* Transition the button in smoothly after typing is finished */
 button {
-  float: center;
+  margin-top: 40px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
   border-radius: 25px;
+  animation: fade-in 1s ease-in forwards;
 }
 
-.fade-in-enter-active,
-.fade-in-leave-active {
-  transition: opacity 0.5s;
-}
-
-.fade-in-enter-from,
-.fade-in-enter-to {
-  opacity: 0;
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1;}
 }
 </style>
