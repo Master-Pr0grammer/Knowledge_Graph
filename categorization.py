@@ -104,9 +104,7 @@ def generate_category(questions_dict):
                         {"role": "user", "content": str(questions_dict)}
                     ]
                 )
-
-    output = json.loads(completion["choices"][0]["message"]["content"].replace("'", "\""))
-    # output = remove_duplicate_categories(output)
+    output = json.loads(completion["choices"][0]["message"]["content"])
 
     return output
 
