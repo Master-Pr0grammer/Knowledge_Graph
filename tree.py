@@ -19,9 +19,8 @@ class Node:
 
 class Knowledge_tree:
 
-    def __init__(self, tree_name, topic_name):
-        self.tree_name = tree_name
-        self.root = Node(topic_name)
+    def __init__(self):
+        self.root = Node('temp root')
 
     #build tree from topics
     def create_tree_from_structure(self,structure):
@@ -62,7 +61,7 @@ class Knowledge_tree:
         return dictionary
     
     #saves dictionary structure to json file
-    def save_structure(self, filename):
+    def save_json(self, filename):
         dictionary = self.export_structure(self.root)
         file = open(filename, 'w')
         json.dump(dictionary, file)
@@ -134,7 +133,7 @@ class Knowledge_tree:
 
 #test code
 if __name__ == '__main__':
-    example_tree= Knowledge_tree("Example Tree", "Machine Learning")
+    example_tree= Knowledge_tree()
 
     # ----- Example structure for creating tree -----
     structure = {
