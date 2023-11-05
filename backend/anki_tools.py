@@ -2,6 +2,7 @@
 
 import requests
 import re
+from categorization import generate_category
 
 ANKI_CONNECT_URL = "http://localhost:8765"
 
@@ -57,3 +58,20 @@ def get_cards_review_details(deck_name):
         }
     
     return nested_cards_data
+
+def get_cards_with_topics(deck_name):
+    raw_dict = get_cards_review_details(deck_name)
+    
+    # Check if there was an error retrieving card details
+    if 'error' in raw_dict:
+        return raw_dict
+    
+    gpt_dict = dict((k, v["topics"]) for k, v in raw_dict.items())
+    gpt_output_dict = generate_category(gpt_dict)
+    
+    new_dict = raw_dict.copy()
+
+    for key in raw_dict.keys():
+        new_dict[key]["topics"] = gpt_output_dict[key]
+    
+    return new_dict

@@ -95,7 +95,7 @@ def remove_duplicate_categories(result_dict):
     return most_recent_categories
 
 def generate_category(questions_dict):
-    openai.api_key = os.getenv("OPENAI_API_KEY")
+    openai.api_key = "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" # HARD CODED API KEY, TODO: CHANGE THIS LATER
 
     completion = openai.ChatCompletion.create(
                     model="gpt-3.5-turbo",
