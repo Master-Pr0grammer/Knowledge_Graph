@@ -1,10 +1,12 @@
 <script>
 import axios from 'axios';
 import ChildNodes from './ChildNodes.vue';
+import FileReciever from './FileReciever.vue'
 
 export default {
   components: {
-    ChildNodes
+    ChildNodes,
+    FileReciever
   },
   data() {
     return {
@@ -30,6 +32,10 @@ export default {
         .catch(error => {
           console.error('There was an error!', error);
         });
+    },
+    fileName(file) {
+      var strArray = file.split('.');
+      return strArray[0];
     }
   },
   created() {
@@ -45,16 +51,22 @@ export default {
         Nice to have you back!
       </h1>
       <p> 
-        Check out some of your progress below: 
+        Check out some of your previous progress or upload your score on a new topic 
       </p>
     </div>
+    
+    <div class="get-file">
+      <FileReciever/> 
+    </div>
+
     <div class="content">
-      <div v-for="file in files" :key="file">
+      
+      <div v-for="file in files" :key="file" >
         <div @click="fetchAndSetActive(file)">
           {{ file }}
+          <ChildNodes :data="activeData" v-if="activeData"/>
         </div>
       </div>
-      <ChildNodes :data="activeData" v-if="activeData"/>
     </div>
   </div>
 </template>
@@ -63,24 +75,35 @@ export default {
 <style scoped>
 
 .home {
-  display: flex;
-  flex-direction: column;
-  float: left;
-  align-items: left;
-  justify-content: center;
+  padding-top: 30px;
   height: 100%;
   width: 100%;
+  animation: fade-in 1s ease-in forwards;
+
 }
+
 
 .greetings {
   font-size: 30px;
 }
 
+.get-file {
+  text-align: center;
+
+}
+
+
 .content {
-  margin-top: 30px;
+  font-size: 19px;
+  margin: 30px 30px 30px 30px;
   outline: 2px solid grey;
   outline-offset: 5px; 
+}
 
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1;}
 }
 
 </style> 

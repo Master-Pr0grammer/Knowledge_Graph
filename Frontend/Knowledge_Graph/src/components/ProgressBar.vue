@@ -1,7 +1,6 @@
 <template>
   <div class="progress-bar-container">
-    <div class="progress-bar" :style="{ width: score + '%' }"></div>
-    
+    <div class="progress-bar" :style="{ width: filledWidth }"></div> 
   </div>
 </template>
 
@@ -9,27 +8,42 @@
 export default {
   name: 'ProgressBar',
   props: {
-    score: {
+    value: {
       type: Number,
-      required: true
-    }
+      required: true,
+      default: 0,
+      validator: (value) => value >= 0 && value <= 100,
+    },
   },
-}
+  computed: {
+    filledWidth() {
+      return `${(this.value > 100 ? 100 : this.value)}%`;
+    },
+  },
+};
 </script>
 
 <style scoped>
-.progress-bar-container {
-  width: 100%;
-  background-color: #e0e0e0;
-  border-radius: 25px; /* This gives the container rounded corners */
-  overflow: hidden; /* Ensures the inner .progress-bar respects the border radius */
+.progress-container {
+  width: 200px;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
 }
 
 .progress-bar {
-  height: 20px;
-  background-color: green;
-  border-radius: 25px; /* Make sure this is equal to or greater than the container's border-radius */
+  height: 100%;
+  background-color: #3b82f6; /* feel free to change the color */
+  transition: width 0.25s ease-in-out;
 }
 
-
 </style>
+
+
+
+
+
+
+

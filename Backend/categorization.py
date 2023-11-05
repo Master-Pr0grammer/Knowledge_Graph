@@ -1,8 +1,9 @@
 import os
 import openai
 import json
+import spacy
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+nlp = spacy.load("en_core_web_sm")
 
 GENERATE_SYSTEM_PROMPT = \
 """You are an educational assistant capable of classifying test questions
@@ -76,16 +77,36 @@ After this final step, you might have produced something that looks like this:
 
 Note you also output in JSON form."""
 
-def generate_category(questions_dict):
-    completion = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo",
-    messages=[
-        {"role": "system", "content": GENERATE_SYSTEM_PROMPT},
-        {"role": "user", "content": str(questions_dict)}
-    ]
-    )
+def remove_duplicate_categories(result_dict):
+    most_recent_categories = {}
 
-    return json.loads(completion["choices"][0]["message"]["content"].replace("'", "\""))
+    for v in result_dict.values():
+        if v[0] not in most_recent_categories.keys():
+            most_recent_categories[v[0]] = [nlp(v[-1])]
+        else:
+            emb1 = nlp(v[-1])
+            for emb2 in most_recent_categories[v[0]]:
+                if emb1.similarity(emb2) > 0.5:
+                    continue
+
+            most_recent_categories[v[0]].append(emb1)
+
+    most_recent_categories = list(most_recent_categories)
+    return most_recent_categories
+
+def generate_category(questions_dict):
+    openai.api_key = os.getenv("OPENAI_API_KEY")
+
+    completion = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    messages=[
+                        {"role": "system", "content": GENERATE_SYSTEM_PROMPT},
+                        {"role": "user", "content": str(questions_dict)}
+                    ]
+                )
+    output = json.loads(completion["choices"][0]["message"]["content"])
+
+    return output
 
 example_questions = {
     "What is the limit of cos(x)/x as x->0?": ["calculus"],
@@ -101,4 +122,10 @@ example_questions = {
     "What is Nash equilibrium?": ["economics"]
 }
 
-print(generate_category(generate_category(example_questions)))
+example_questions2 = {
+    "Osmosis - The movement of water between permeable membranes": ["biology"],
+    "Diffusion - The movement of particles throug permeable membranes": ["biology"],
+}
+
+if __name__ == "__main__":
+    print(generate_category(example_questions))

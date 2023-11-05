@@ -3,7 +3,8 @@
   <div class="node-container">
     <div class="node" @click="toggle">
       {{ data.name }} - Score: {{ data.score }}
-      <progress-bar :value="data.score"></progress-bar>
+      <progress max="100" :value="data.score"></progress>
+      <!-- <progress-bar :value="40"></progress-bar> -->
     </div>
     <div v-if="isOpen">
       <ChildNodes
@@ -16,7 +17,7 @@
 </template>
 
 <script>
-import  ProgressBar from './ProgressBar.vue';
+// import  ProgressBar from './ProgressBar.vue';
 
 export default {
   name: 'ChildNodes', // The component's name is used for recursive reference
@@ -34,20 +35,35 @@ export default {
   // This is necessary to inform Vue that the component will be used recursively.
   components: {
     ChildNodes: () => import('./ChildNodes.vue'),
-    ProgressBar
+    // ProgressBar
   }
 };
 </script>
 
 <style>
 .node {
-  margin-left: 20px;
+  margin: 100px, 0, 100px, 20px;
   cursor: pointer;
 }
 
 .node-container {
-  outline: 2px solid grey;
-  outline-offset: 5px; 
+
+  margin-left: 30px;
+  animation: fade-in 1s ease-in forwards;
+}
+
+.node-container .node:hover {
+  background-color: lightgray;
+}
+
+progress {
+  color: green;
+}
+
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1;}
 }
 
 </style>

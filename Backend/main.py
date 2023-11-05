@@ -16,7 +16,7 @@ def tsv_to_dict(file_path):
     
     return result_dict
 
-#makes 
+# Asks generator to create a new layer of topics
 def make_tree_more_specific(json_filename):
     topic_structure = cat.generate_category(topic_structure)
     
@@ -24,7 +24,7 @@ def make_tree_more_specific(json_filename):
     tree_data.create_tree_from_structure(topic_structure)
     tree_data.save_json(json_filename)
 
-#
+# Create an initial tree of categories from an input file
 def upload(file_path, json_filename):
     question_dict = tsv_to_dict(file_path)
     topic_structure = cat.generate_category(question_dict)
@@ -33,5 +33,5 @@ def upload(file_path, json_filename):
     tree_data.create_tree_from_structure(topic_structure)
     tree_data.save_json(json_filename)
     
-    
-    
+if __name__ == "__main__":
+    upload("text.txt", "json.json")

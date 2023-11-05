@@ -1,0 +1,23 @@
+{
+    "name": "Machine Learning",
+    "score": 50,
+    "nodes": [
+      {
+        "name": "Linear Algebra",
+        "score": 50,
+        "nodes": [
+          {
+            "name": "Calculus",
+            "score": 50,
+            "nodes": []
+          }
+        ]
+      },
+      {
+        "name": "Reinforcement Learning",
+        "score": 50,
+        "nodes": []
+      }
+    ]
+}
+  
