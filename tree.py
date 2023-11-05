@@ -10,6 +10,14 @@ class Knowledge_tree:
         self.tree_name = tree_name
         self.root = Node(topic_name)
 
+    def create_tree_from_structure(structure):
+        '''
+        question1 : [topic, sub_topic, sub_sub_topic ...]
+        question2 : [topic, sub_topic, sub_sub_topic ...]
+        question3 : [topic, sub_topic, sub_sub_topic ...]
+        
+        '''
+
     #Traverse tree to find all leaf nodes (to edit scores and other data)
     def traverse_tree(self, node, leaf_nodes):
         '''
