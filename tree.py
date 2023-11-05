@@ -1,3 +1,5 @@
+import json
+
 class Node:
     def __init__(self, topic_name, score=0):
         self.topic_name = topic_name
@@ -21,6 +23,7 @@ class Knowledge_tree:
         self.tree_name = tree_name
         self.root = Node(topic_name)
 
+    #build tree from topics
     def create_tree_from_structure(self,structure):
         '''
         question1 : [topic, sub_topic, sub_sub_topic ...]
@@ -44,23 +47,26 @@ class Knowledge_tree:
             current_node = Node(keys[i])
             branch.connected_nodes.append(current_node)
 
-    def export_structure(self, node, dictionary):
+    #recursive function to build a dictionary object representation of the tree
+    def export_structure(self, node):
         if len(node.connected_nodes) == 0:
-            dictionary['connected_nodes'].append(node.get_dict())
-            print('here:', dictionary)
-            return dictionary
+            return node.get_dict()
         else:
             temp_dict = node.get_dict()
             for i in range(len(node.connected_nodes)):
-                var = self.export_structure(node.connected_nodes[i], temp_dict)
+                var = self.export_structure(node.connected_nodes[i])
                 temp_dict['connected_nodes'].append(var)
 
-            if node == self.root:
-                dictionary = temp_dict
-            else:
-                dictionary['connected_nodes'].append(temp_dict)
+            dictionary = temp_dict
 
         return dictionary
+    
+    #saves dictionary structure to json file
+    def save_structure(self, filename):
+        dictionary = self.export_structure(self.root)
+        file = open(filename, 'w')
+        json.dump(dictionary, file)
+        file.close()
 
 
 
@@ -85,6 +91,7 @@ class Knowledge_tree:
         else:
             for i in range(len(node.connected_nodes)):
                 self.traverse_tree(node.connected_nodes[i], leaf_nodes)
+        
 
     def update_scores(self, node):
         '''
@@ -129,23 +136,7 @@ class Knowledge_tree:
 if __name__ == '__main__':
     example_tree= Knowledge_tree("Example Tree", "Machine Learning")
 
-    #create first level groups
-    # new_node = Node("Linear Regresssion")
-    # example_tree.root.connected_nodes.append(new_node)
-
-    # new_node = Node("Neural Networks")
-    # example_tree.root.connected_nodes.append(new_node)
-    
-    # #create base level node
-    # leaf_node = Node("Linear algebra", 0.3)
-    # example_tree.root.connected_nodes[0].connected_nodes.append(leaf_node)
-
-    # leaf_node = Node("Forward Propragation", 0.7)
-    # example_tree.root.connected_nodes[1].connected_nodes.append(leaf_node)
-
-    # leaf_node = Node("Backward Propragation", 0.6)
-    # example_tree.root.connected_nodes[1].connected_nodes.append(leaf_node)
-
+    # ----- Example structure for creating tree -----
     structure = {
         'question1':['Machine Learning', 'Linear Regression'],
         'question2':['Machine Learning', 'Neural Networks'],
@@ -153,24 +144,28 @@ if __name__ == '__main__':
     }
     example_tree.create_tree_from_structure(structure)
 
-
+    # ----- Print Tree -----
     print("\n----- Print Tree -----")
     example_tree.print_tree(example_tree.root, 0)
 
-    #export structure
-    structure = example_tree.export_structure(example_tree.root, example_tree.root.get_dict())
-    print(structure)
-    
-    #update Scores 
-
-    # print("\n----- Print Updated Tree -----")
-    # example_tree.update_scores(example_tree.root)
-    # example_tree.print_tree(example_tree.root, 0)
-
+    # ----- Get leaf Nodes -----
+    print("\n----- Print Leaf Nodes -----")
     all_leaf_nodes = []
     example_tree.traverse_tree(example_tree.root, all_leaf_nodes)
-
-    print("\n----- Print Leaf Nodes -----")
     for i in all_leaf_nodes:
         print(i.topic_name)
 
+    #----- Update leaf nodes with scores -----
+    for node in all_leaf_nodes:
+        node.score = 0.3
+    
+    #----- Update Tree Scores -----
+    print("\n----- Print Updated Tree -----")
+    example_tree.update_scores(example_tree.root)
+    example_tree.print_tree(example_tree.root, 0)
+
+    #----- Export Structure as dictionary -----
+    print("\n----- Print Export Structure -----")
+    structure = example_tree.export_structure(example_tree.root)
+    print(structure)
+    #example_tree.save_structure('test.json')
