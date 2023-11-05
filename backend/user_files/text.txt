@@ -8,13 +8,4 @@ Plasmolyse	When a cell has shrunk
 Hypotonic Solution	A cell has more solute inside than outside.
 Turgid	Cell may explode under pressure due to a hypotonic solution.
 Exocytosis	Movement out of a cell
-Endocytosis	Movement into a cell
-Lysosome	A vesicle that contains destructive/digestive chemicals
-Pinocytosis	A form of endocytosis where a cell engulfs liquid into the cell.
-Phagocytosis	A form of endocytosis where a cell engulfs solids into a cell
-Scientific question	Questions that can be answered by using experiments and factual reasoning.
-Biology	The study of living organisms and how they function.
-Scientific Method	A method of procedure that has characterized natural science since the 17th century, consisting in systematic observation, measurement, and experiment, and the formulation, testing, and modification of hypotheses.
-Hypothesis	1st part of the scientific method
-experimental design	Experimental design refers to how participants are allocated to the different conditions (or IV groups) in an experiment.
-variable	factors that are kept constant or unchanging.
+
