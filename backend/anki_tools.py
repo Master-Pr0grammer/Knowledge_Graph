@@ -37,7 +37,8 @@ def get_cards_review_details(deck_name):
     reviews = reviews_response.get('result', {})
     
     for card_id, review in reviews.items():
-        card_eases[card_id] = review[-1]['ease'] if review else 0
+        # Scale ease from 0-4 to 0-100
+        card_eases[card_id] = 25 * (review[-1]['ease'] if review else 0)
     
     nested_cards_data = {}
     
@@ -46,9 +47,13 @@ def get_cards_review_details(deck_name):
         back = remove_html_tags(card_info['fields']['Back']['value'])
         card_key = f"{front} {back}"
         
+        # Ensure the score is within the new scale of 0-100
+        score = card_eases.get(str(card_info['cardId']), 0)
+        score = 0 if score < 0 else 100 if score > 100 else score
+        
         nested_cards_data[card_key] = {
             "topics": [deck_name],
-            "score": card_eases.get(str(card_info['cardId']), 0)
+            "score": score
         }
     
     return nested_cards_data
