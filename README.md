@@ -1,4 +1,11 @@
 # HackRPI 2023 Hackathon
+## Technologies Used:
+- Python
+- ChatGPT API
+- Flask
+- Vue.js
+- AnkiConnect API
+
 ## Inspiration
 In any level of education, a good majority of time spent studying can be attributed to organizing the study material into an interpretable format. There exist many studies that show that compartmentalization of information can drastically improve one’s information recall and overall efficiency while studying.
 
@@ -22,6 +29,6 @@ We make use of the ChatGPT API to generate categories considering the current tr
 Improving the UI, allowing users to correct model's categorizations using reinforcement using human feedback, allowing support to upload additional study materials like files to individual nodes of the graph, a way for users to be able to share graphs to other people, and adding additional support for existing education software like google classroom or LMS.
 
 ## References and Relevant Links
-Anki-Connect: https://github.com/FooSoft/anki-connect
-HackRPI Devpost: https://devpost.com/software/knowledge-net?ref_content=my-projects-tab&ref_feature=my_projects
-Presentation: https://docs.google.com/presentation/d/1JWHSDnfH79ZqwZ3HqpMCWBJCDC-SBTGah_NQW6rwaqI/edit?usp=sharing
+- Anki-Connect: https://github.com/FooSoft/anki-connect
+- HackRPI Devpost: https://devpost.com/software/knowledge-net?ref_content=my-projects-tab&ref_feature=my_projects
+- Presentation: https://docs.google.com/presentation/d/1JWHSDnfH79ZqwZ3HqpMCWBJCDC-SBTGah_NQW6rwaqI/edit?usp=sharing
