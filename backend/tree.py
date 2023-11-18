@@ -1,14 +1,24 @@
 import json
 
 class Node:
+    '''
+    Node class Used for building the tree
+
+    Constructor input:
+        topic_name: name of of the topic for the node
+        score: knowledge score for the topic
+    '''
+
     def __init__(self, topic_name, score=0):
         self.topic_name = topic_name
         self.score = score
         self.connected_nodes = []
 
+    # is equal operator ('==')
     def __eq__(self, object):
         return self.topic_name == object.topic_name and self.score == object.score
     
+    # Returns dictionary conataining all node data
     def get_dict(self):
         node_dict = {
             'name': self.topic_name,
@@ -25,29 +35,47 @@ class Knowledge_tree:
     #build tree from topics
     def create_tree_from_structure(self,structure):
         '''
-        question1 : [topic, sub_topic, sub_sub_topic ...]
-        question2 : [topic, sub_topic, sub_sub_topic ...]
-        question3 : [topic, sub_topic, sub_sub_topic ...]
-        
+        Takes in a dictionary output (from AI) and generates a tree structure
+
+        Dictionary format Example:
+            question1 : [topic, sub_topic, sub_sub_topic ...]
+            question2 : [topic, sub_topic, sub_sub_topic ...]
+            question3 : [topic, sub_topic, sub_sub_topic ...]
         '''
 
         keys = list(structure.keys())
         self.root = Node(structure[keys[0]][0])
 
+        # Itterate over all base level topics/questions
         for i in range(len(keys)):
             branch = self.root
+
+            #for every base level topic, itterate over every sub_topic, and add brach to root (ignoring first, root, element in list)
             for j in range(1,len(structure[keys[i]])):
                 current_node = Node(structure[keys[i]][j])
+
+                # add sub topic to current branch if its not already there
                 if current_node in branch.connected_nodes:
                     branch = branch.connected_nodes[branch.connected_nodes.index(current_node)] #set branch pointer to pre-existing branch with same name
                 else:
                     branch.connected_nodes.append(current_node)
                     branch = branch.connected_nodes[-1]
+                    
             current_node = Node(keys[i])
             branch.connected_nodes.append(current_node)
 
     #recursive function to build a dictionary object representation of the tree
     def export_structure(self, node):
+        '''
+        Generates a dictionary that recursivly represents the structure of the tree
+
+        Input:
+            Starting node for the export (ussually the root node)
+
+        Output:
+            Dictionary tree representation
+        '''
+
         if len(node.connected_nodes) == 0:
             return node.get_dict()
         else:
@@ -62,6 +90,15 @@ class Knowledge_tree:
     
     #saves dictionary structure to json file
     def save_json(self, filename):
+        '''
+        Creates a tree structure JSON file in the format defined by the "export_structure" function
+
+        Input:
+            filename: filename of the JSON file
+
+        Output:
+            JSON file written to current working directory named "filename"
+        '''
         dictionary = self.export_structure(self.root)
         file = open(filename, 'w')
         json.dump(dictionary, file)
@@ -72,7 +109,10 @@ class Knowledge_tree:
     #Traverse tree to find all leaf nodes (to edit scores and other data)
     def traverse_tree(self, node, leaf_nodes):
         '''
-        Traverses the tree starting at the leaf node and edits the list to add all of the leaf nodes
+        Traverses the tree starting at the specified node, and edits the leaf node list to add all of the leaf nodes.
+        
+        Useful for setting the scores for all of the base topics that are in the base, or leaf nodes, of the tree, then calling "update_scores" 
+        function to update all of the higher level node scores.
 
         Input:
             node: the start node of the search (ussually the root node)
@@ -94,10 +134,10 @@ class Knowledge_tree:
 
     def update_scores(self, node):
         '''
-        Traverses the tree starting at the leaf node, and updates all of the higher level catagory (higher nodes) scores
+        Traverses the tree starting at the specified node, and updates all of the higher level catagory (higher nodes) scores
 
         Input:
-            node: the start node of the search (ussually the root node)
+            node: the start node of the update scores function (ussually the root node)
 
         Output:
             None: updates all node scores
