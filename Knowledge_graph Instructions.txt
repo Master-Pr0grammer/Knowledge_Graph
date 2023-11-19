@@ -1,0 +1,12 @@
+# Here are the commands to run Knowledge graph (not 100% complete)
+# need to have js interpeter and node.js, then  make sure you have npm - (again not 100% sure this is correct)
+
+# Run the following commands to activate virtual environment, then run mian javascript code
+
+.\backend\results\venv\bin\activate
+
+cd .\Frontend\Knowledge_Graph\
+
+npm -i
+ 
+npm run dev
